@@ -1,0 +1,25 @@
+[DATA] distinct identities = 29; repeated identities = 3; max multiplicity = 2; pattern = [2, 2, 2]
+[STRUCT] uniform_A=29             E[R]=  8.76  P(R<=3)=0.0000  P(R>=3)=1.0000  consistent=False
+[STRUCT] uniform_A=54             E[R]=  6.38  P(R<=3)=0.0248  P(R>=3)=0.9958  consistent=False
+[STRUCT] uniform_A=63             E[R]=  5.75  P(R<=3)=0.0659  P(R>=3)=0.9862  consistent=True
+[STRUCT] uniform_A=100            E[R]=  4.05  P(R<=3)=0.3659  P(R>=3)=0.8544  consistent=True
+[STRUCT] uniform_A=165            E[R]=  2.66  P(R<=3)=0.7444  P(R>=3)=0.5277  consistent=True
+[STRUCT] uniform_A=250            E[R]=  1.83  P(R<=3)=0.9131  P(R>=3)=0.2687  consistent=True
+[STRUCT] uniform_A=500            E[R]=  0.94  P(R<=3)=0.9912  P(R>=3)=0.0561  consistent=True
+[STRUCT] english_homophone_k=1    E[R]=  8.52  P(R<=3)=0.0000  P(R>=3)=1.0000  consistent=False
+[STRUCT] english_homophone_k=2    E[R]=  7.83  P(R<=3)=0.0006  P(R>=3)=0.9999  consistent=False
+[STRUCT] english_homophone_k=3    E[R]=  6.56  P(R<=3)=0.0165  P(R>=3)=0.9983  consistent=False
+[STRUCT] english_homophone_k=5    E[R]=  4.79  P(R<=3)=0.1971  P(R>=3)=0.9398  consistent=True
+[STRUCT] english_homophone_k=8    E[R]=  3.36  P(R<=3)=0.5544  P(R>=3)=0.7129  consistent=True
+[STRUCT] english_homophone_k=10   E[R]=  2.79  P(R<=3)=0.7106  P(R>=3)=0.5613  consistent=True
+[STRUCT] english_homophone_k=15   E[R]=  1.98  P(R<=3)=0.8877  P(R>=3)=0.3116  consistent=True
+[STRUCT] english_homophone_k=20   E[R]=  1.51  P(R<=3)=0.9526  P(R>=3)=0.1799  consistent=True
+[STRUCT] consistent models: ['uniform_A=63', 'uniform_A=100', 'uniform_A=165', 'uniform_A=250', 'uniform_A=500', 'english_homophone_k=5', 'english_homophone_k=8', 'english_homophone_k=10', 'english_homophone_k=15', 'english_homophone_k=20']
+[READ] Z32 permutation null (n=150): mean=-1.7053, sd=0.0579, 95%=-1.6128
+[READ] O1_printed   obs=-1.7468  p=0.7881  p_bonf(x4)=1.0000
+[READ] O2_zigzag    obs=-1.7020  p=0.4901  p_bonf(x4)=1.0000
+[READ] O3_columns   obs=-1.7066  p=0.5099  p_bonf(x4)=1.0000
+[READ] O4_reversed  obs=-1.6976  p=0.4570  p_bonf(x4)=1.0000
+[POWER] controls detected at p<0.05: 2/20  -> power = 0.10
+[POWER] control mean obs score = -1.7064; mean p = 0.527
+[DONE] elapsed 87.9s

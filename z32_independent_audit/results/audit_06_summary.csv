@@ -1,0 +1,13 @@
+quantity,value
+pairs,15
+px_per_mile_median,23.57
+px_per_mile_min,15.59
+px_per_mile_max,29.728
+miles_per_unit_median,1.0856
+miles_per_unit_IQR,1.024 - 1.360
+miles_per_unit_min_max,0.861 - 1.641
+bearing_diff_median_deg,4.31
+bearing_diff_min_max_deg,-11.25 to 72.42
+corr_distance_vs_px_per_mile,-0.1
+pixels_per_figure_unit (from audit input),25.589
+6.4_miles_per_unit_would_need_px_per_mile,3.998

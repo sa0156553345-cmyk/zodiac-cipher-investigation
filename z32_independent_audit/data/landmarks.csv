@@ -1,0 +1,8 @@
+name,lat,lon,coord_source,image_x,image_y,image_reading_method,notes
+Mount Diablo (crosshair origin),37.881774,-121.913085,"Foxon 2023 ePrint 2023/982 Table 2, NAD27: 37 52 54.38700 N, 121 54 47.10700 W",490,454,"ring/line projection of dark pixels (map_audit.py)","origin of polar coordinates in the paper; crosshair may not coincide exactly with the summit"
+Oakland,37.80444,-122.27083,"https://en.wikipedia.org/wiki/Oakland,_California : 37 48 16 N 122 16 15 W",152,609,"manual centre of printed label, grid overlay (+-6 px)","label printed on map"
+San Leandro,37.72500,-122.15611,"https://en.wikipedia.org/wiki/San_Leandro,_California : 37 43 30 N 122 09 22 W",100,728,"manual centre of printed label (+-6 px)","label printed on map"
+Hayward,37.668820,-122.080796,"https://en.wikipedia.org/wiki/Hayward,_California : 37 40 08 N 122 04 51 W",186,870,"manual centre of printed label (+-6 px)","label printed on map"
+Livermore,37.68194,-121.76806,"https://en.wikipedia.org/wiki/Livermore,_California : 37 40 55 N 121 46 05 W",602,782,"manual centre of printed label (+-6 px)","label printed on map"
+Vallejo,38.11306,-122.23583,"https://en.wikipedia.org/wiki/Vallejo,_California : 38 6 47 N 122 14 9 W; alternative latlong.net 38.104088,-122.256638 differs by about 1 mile",95,80,"manual centre of printed label (+-6 px)","label printed on map; source disagreement used as uncertainty"
+State Highway 24 point (Lafayette-Orinda area),37.890364,-122.136156,"https://www.findlatitudeandlongitude.com/r/State+Highway+24%2C+Lafayette%2C+CA+94549%2C+USA/581248/",,,,"single road point from a third-party coordinate site; not a verified site of any event"

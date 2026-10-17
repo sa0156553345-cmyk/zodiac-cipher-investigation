@@ -1,0 +1,52 @@
+{
+ "results": [
+  {
+   "f_correct": 1.0,
+   "wrong_key": false,
+   "reps": 300,
+   "power_p001": 0.98,
+   "power_p0025": 0.9633333333333334,
+   "median_p": 0.001
+  },
+  {
+   "f_correct": 0.9,
+   "wrong_key": false,
+   "reps": 300,
+   "power_p001": 0.9233333333333333,
+   "power_p0025": 0.7966666666666666,
+   "median_p": 0.001
+  },
+  {
+   "f_correct": 0.8,
+   "wrong_key": false,
+   "reps": 300,
+   "power_p001": 0.7133333333333334,
+   "power_p0025": 0.5833333333333334,
+   "median_p": 0.001
+  },
+  {
+   "f_correct": 0.7,
+   "wrong_key": false,
+   "reps": 300,
+   "power_p001": 0.5,
+   "power_p0025": 0.33,
+   "median_p": 0.009999999999999998
+  },
+  {
+   "f_correct": 1.0,
+   "wrong_key": true,
+   "reps": 300,
+   "power_p001": 0.01,
+   "power_p0025": 0.0,
+   "median_p": 0.488
+  }
+ ],
+ "assumptions": {
+  "symbols_per_letter": 3,
+  "letters": 21,
+  "novel_positions": 2,
+  "lm": "GPL-2 bigrams add-0.5",
+  "plaintext": "GPL-3 segments filtered to 21 letters",
+  "n_perm": 999
+ }
+}

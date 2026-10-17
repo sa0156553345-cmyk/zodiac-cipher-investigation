@@ -1,0 +1,7 @@
+rotation_hypothesis,phi_deg,offset,px_per_mile,s_fit_miles_per_unit,offset_x_px,offset_y_px,rms_residual_px,worst_residual_px
+true north up (0 deg),0.0,free offset,21.9242,1.1704,-37.09,-34.25,81.1,127.48
+true north up (0 deg),0.0,zero offset,23.5134,1.0913,0.0,0.0,90.58,125.11
+declination east (+16.9 deg),16.9,free offset,20.4507,1.2547,-95.43,13.78,143.6,206.03
+declination east (+16.9 deg),16.9,zero offset,22.2866,1.1514,0.0,0.0,169.38,208.43
+declination west (-16.9 deg),-16.9,free offset,21.5041,1.1933,-15.33,-106.62,103.35,128.07
+declination west (-16.9 deg),-16.9,zero offset,22.7093,1.1299,0.0,0.0,147.49,208.0

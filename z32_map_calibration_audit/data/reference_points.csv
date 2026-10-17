@@ -1,0 +1,4 @@
+name,lat_dms,lon_dms,datum,source,role,status
+summit_NAD27,37 52 54.38700 N,121 54 47.10700 W,NAD27,Foxon (2023) Table 2,geographic origin of Mount Diablo (paper value),documented in paper
+summit_USSD,37 52 55.48200 N,121 54 48.35500 W,USSD,Foxon (2023) Table 2,alternative datum for datum sensitivity,documented in paper
+road_point_HW24,37 53 25.33 N,122 08 10.16 W,WGS84 (geocoded),geocoded point for a road name (not a site),not used for selection; reported only,secondary (commercial geocoder)

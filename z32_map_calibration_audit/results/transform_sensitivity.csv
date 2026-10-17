@@ -1,0 +1,29 @@
+change_from_baseline,lat,lon,inside_figure,shift_from_baseline_mi,note
+baseline,37.92979,-122.15032,True,0.0,"paper convention (round, east-ccw, D=16.9, fit, G1, crosshair pole)"
+number N_floor,38.09494,-122.02024,True,13.421,number pair alternative
+number N_30,37.92219,-121.83071,True,17.468,number pair alternative
+number N_312,37.89441,-121.83788,True,17.246,number pair alternative
+number N_03,37.91804,-121.89455,True,13.997,number pair alternative
+reference R1,37.87272,-122.14418,True,3.951,angle reference alternative
+reference R2,37.71747,-121.93363,True,18.841,angle reference alternative
+reference R3,37.73409,-122.00264,True,15.73,angle reference alternative
+reference R4p,37.9882,-122.13505,True,4.114,angle reference alternative
+reference R4m,37.87039,-122.14349,True,4.114,angle reference alternative
+declination 0.0 (R0),37.92979,-122.15032,True,0.0,declination has no effect on R0 (only R2-R4)
+declination 0.0 (R2),37.7171,-121.85854,True,21.679,declination enters R2
+declination 15.0 (R0),37.92979,-122.15032,True,0.0,declination has no effect on R0 (only R2-R4)
+declination 15.0 (R2),37.71655,-121.92523,True,19.181,declination enters R2
+declination 16.3 (R0),37.92979,-122.15032,True,0.0,declination has no effect on R0 (only R2-R4)
+declination 16.3 (R2),37.71715,-121.93098,True,18.949,declination enters R2
+declination 17.7 (R0),37.92979,-122.15032,True,0.0,declination has no effect on R0 (only R2-R4)
+declination 17.7 (R2),37.71792,-121.93715,True,18.696,declination enters R2
+scale 6.4 mi/unit,37.9757,-123.29886,False,62.803,external claim
+georeg G2,37.9025,-122.15114,True,1.883,"similarity, 5 cities, zero offset (crosshair = summit)"
+georeg G3,37.91712,-122.15272,True,0.884,"affine, 5 cities, free offset"
+georeg G4,37.91988,-122.12009,True,1.788,"similarity, free offset, without Oakland"
+georeg G5,37.92968,-122.16023,True,0.541,"similarity, free offset, without San Leandro"
+georeg G6,37.92325,-122.158,True,0.616,"similarity, free offset, without Hayward"
+georeg G7,37.93188,-122.16217,True,0.663,"similarity, free offset, without Livermore"
+georeg G8,37.96875,-122.16777,True,2.851,"similarity, free offset, without Vallejo"
+pole = physical summit (PS),37.89349,-122.16873,True,2.698,pole alternative
+"datum summit USSD instead of NAD27 (R0, G1, PC)",37.92979,-122.15032,True,0.028,datum sensitivity

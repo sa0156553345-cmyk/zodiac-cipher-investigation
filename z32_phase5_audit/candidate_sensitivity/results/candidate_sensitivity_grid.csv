@@ -1,0 +1,209 @@
+family,variant,cities,scale_source,miles_per_unit,rotation_label,rotation_deg,origin,direction,rounding,theta_rad,pred_lat,pred_lon,dist_from_Diablo_mi,dist_to_candidate_mi,agrees_within_1mi,frame_px_x,frame_px_y,inside_fig2_frame_via_A
+G1,A,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.162,fit,-4.802,crosshair+fitted offset,E-CCW,round,3.0,37.929611,-122.150449,13.356,0.014,True,186.0,410.7,True
+G1,A,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.162,fit,-4.802,crosshair+fitted offset,E-CCW,floor,2.0,38.094014,-122.02082,15.795,13.358,False,362.2,174.8,True
+G1,A,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.162,fit,-4.802,crosshair+fitted offset,E-CW,round,3.0,37.872774,-122.144414,12.632,3.953,False,186.0,497.3,True
+G1,A,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.162,fit,-4.802,crosshair+fitted offset,E-CW,floor,2.0,37.727787,-121.981936,11.284,16.711,False,362.2,733.2,True
+G1,A,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.162,fit,-4.802,crosshair+fitted offset,N-CCW,round,3.0,37.716189,-121.910212,11.442,19.737,False,446.7,758.0,True
+G1,A,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.162,fit,-4.802,crosshair+fitted offset,N-CCW,floor,2.0,37.818754,-122.117995,11.998,7.872,False,210.8,581.8,True
+G1,A,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.162,fit,-4.802,crosshair+fitted offset,N-CW,round,3.0,37.720964,-121.838378,11.836,22.316,False,533.3,758.0,True
+G1,A,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.162,fit,-4.802,crosshair+fitted offset,N-CW,floor,2.0,37.84952,-121.655134,14.246,27.565,False,769.2,581.8,True
+G1,A,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.162,fit,-4.802,crosshair+fitted offset,W-CCW,round,3.0,37.90627,-121.640476,14.96,27.838,False,794.0,497.3,True
+G1,A,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.162,fit,-4.802,crosshair+fitted offset,W-CCW,floor,2.0,37.741867,-121.770104,12.424,24.476,False,617.8,733.2,True
+G1,A,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.162,fit,-4.802,crosshair+fitted offset,W-CW,round,3.0,37.963107,-121.646511,15.578,27.547,False,794.0,410.7,True
+G1,A,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.162,fit,-4.802,crosshair+fitted offset,W-CW,floor,2.0,38.108094,-121.808988,16.633,22.293,False,617.8,174.8,True
+G1,A,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.162,fit,-4.802,crosshair+fitted offset,S-CCW,round,3.0,38.119692,-121.880712,16.533,19.685,False,533.3,150.0,True
+G1,A,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.162,fit,-4.802,crosshair+fitted offset,S-CCW,floor,2.0,38.017127,-121.672929,16.083,26.693,False,769.2,326.2,True
+G1,A,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.162,fit,-4.802,crosshair+fitted offset,S-CW,round,3.0,38.114917,-121.952547,16.251,16.718,False,446.7,150.0,True
+G1,A,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.162,fit,-4.802,crosshair+fitted offset,S-CW,floor,2.0,37.986361,-122.135791,14.125,3.988,False,210.8,326.2,True
+G1,B,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0904,fit,-4.933,crosshair+fitted offset,E-CCW,round,3.0,37.919751,-122.120372,11.602,1.773,False,220.8,428.6,True
+G1,B,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0904,fit,-4.933,crosshair+fitted offset,E-CCW,floor,2.0,38.074238,-121.999183,14.101,12.935,False,385.6,206.9,True
+G1,B,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0904,fit,-4.933,crosshair+fitted offset,E-CW,round,3.0,37.866428,-122.114555,11.039,4.793,False,221.0,509.9,True
+G1,B,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0904,fit,-4.933,crosshair+fitted offset,E-CW,floor,2.0,37.730656,-121.9617,10.773,17.183,False,386.8,730.9,True
+G1,B,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0904,fit,-4.933,crosshair+fitted offset,N-CCW,round,3.0,37.719896,-121.894367,11.231,20.136,False,466.1,754.0,True
+G1,B,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0904,fit,-4.933,crosshair+fitted offset,N-CCW,floor,2.0,37.815784,-122.089618,10.656,8.545,False,244.4,589.1,True
+G1,B,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0904,fit,-4.933,crosshair+fitted offset,N-CW,round,3.0,37.724499,-121.826974,11.84,22.641,False,547.4,753.8,True
+G1,B,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0904,fit,-4.933,crosshair+fitted offset,N-CW,floor,2.0,37.845441,-121.655377,14.28,27.611,False,768.4,587.9,True
+G1,B,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0904,fit,-4.933,crosshair+fitted offset,W-CCW,round,3.0,37.898717,-121.641777,14.84,27.804,False,791.5,508.6,True
+G1,B,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0904,fit,-4.933,crosshair+fitted offset,W-CCW,floor,2.0,37.744229,-121.762967,12.548,24.721,False,626.6,730.4,True
+G1,B,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0904,fit,-4.933,crosshair+fitted offset,W-CW,round,3.0,37.95204,-121.647595,15.264,27.437,False,791.3,427.3,True
+G1,B,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0904,fit,-4.933,crosshair+fitted offset,W-CW,floor,2.0,38.087811,-121.800449,15.501,21.954,False,625.4,206.4,True
+G1,B,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0904,fit,-4.933,crosshair+fitted offset,S-CCW,round,3.0,38.098572,-121.867783,15.181,19.301,False,546.1,183.3,True
+G1,B,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0904,fit,-4.933,crosshair+fitted offset,S-CCW,floor,2.0,38.002684,-121.672531,15.544,26.509,False,767.9,348.1,True
+G1,B,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0904,fit,-4.933,crosshair+fitted offset,S-CW,round,3.0,38.093969,-121.935176,14.711,16.305,False,464.8,183.5,True
+G1,B,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0904,fit,-4.933,crosshair+fitted offset,S-CW,floor,2.0,37.973027,-122.106773,12.296,3.815,False,243.9,349.3,True
+G1,C,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.088,fit,-1.815,crosshair=Diablo,E-CCW,round,3.0,37.902528,-122.15078,13.04,1.884,False,182.2,451.6,True
+G1,C,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.088,fit,-1.815,crosshair=Diablo,E-CCW,floor,2.0,38.051243,-122.01944,13.064,11.01,False,358.4,239.7,True
+G1,C,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.088,fit,-1.815,crosshair=Diablo,E-CW,round,3.0,37.849152,-122.148642,13.045,5.573,False,177.9,532.7,True
+G1,C,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.088,fit,-1.815,crosshair=Diablo,E-CW,floor,2.0,37.707316,-122.005663,13.071,17.281,False,331.2,761.8,True
+G1,C,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.088,fit,-1.815,crosshair=Diablo,N-CCW,round,3.0,37.693704,-121.939316,13.073,19.969,False,408.9,789.1,True
+G1,C,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.088,fit,-1.815,crosshair=Diablo,N-CCW,floor,2.0,37.797623,-122.127271,13.054,9.218,False,197.0,612.8,True
+G1,C,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.088,fit,-1.815,crosshair=Diablo,N-CW,round,3.0,37.695395,-121.871855,13.073,22.211,False,490.0,793.3,True
+G1,C,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.088,fit,-1.815,crosshair=Diablo,N-CW,floor,2.0,37.808524,-121.692594,13.052,26.335,False,719.1,640.1,True
+G1,C,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.088,fit,-1.815,crosshair=Diablo,W-CCW,round,3.0,37.86102,-121.67539,13.043,26.328,False,746.4,562.3,True
+G1,C,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.088,fit,-1.815,crosshair=Diablo,W-CCW,floor,2.0,37.712305,-121.80673,13.07,24.031,False,570.1,774.3,True
+G1,C,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.088,fit,-1.815,crosshair=Diablo,W-CW,round,3.0,37.914396,-121.677528,13.039,25.791,False,750.6,481.3,True
+G1,C,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.088,fit,-1.815,crosshair=Diablo,W-CW,floor,2.0,38.056232,-121.820507,13.066,19.971,False,597.4,252.2,True
+G1,C,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.088,fit,-1.815,crosshair=Diablo,S-CCW,round,3.0,38.069844,-121.886854,13.073,17.304,False,519.6,224.9,True
+G1,C,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.088,fit,-1.815,crosshair=Diablo,S-CCW,floor,2.0,37.965925,-121.698899,13.042,24.722,False,731.6,401.1,True
+G1,C,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.088,fit,-1.815,crosshair=Diablo,S-CW,round,3.0,38.068153,-121.954315,13.072,14.328,False,438.6,220.6,True
+G1,C,"Oakland,San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.088,fit,-1.815,crosshair=Diablo,S-CW,floor,2.0,37.955024,-122.133576,13.041,1.968,False,209.5,373.9,True
+G1,D,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0179,fit,-4.172,crosshair=Diablo,E-CCW,round,3.0,37.893939,-122.136284,12.2,2.593,False,198.4,466.1,True
+G1,D,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0179,fit,-4.172,crosshair=Diablo,E-CCW,floor,2.0,38.036951,-122.020742,12.221,10.228,False,355.0,261.2,True
+G1,D,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0179,fit,-4.172,crosshair=Diablo,E-CW,round,3.0,37.84411,-122.13169,12.205,6.007,False,197.6,542.0,True
+G1,D,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0179,fit,-4.172,crosshair=Diablo,E-CW,floor,2.0,37.715878,-121.991142,12.229,17.144,False,349.7,750.3,True
+G1,D,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0179,fit,-4.172,crosshair=Diablo,N-CCW,round,3.0,37.705174,-121.92846,12.231,19.685,False,423.4,772.8,True
+G1,D,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0179,fit,-4.172,crosshair=Diablo,N-CCW,floor,2.0,37.796593,-122.109208,12.213,9.473,False,218.5,616.2,True
+G1,D,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0179,fit,-4.172,crosshair=Diablo,N-CW,round,3.0,37.708808,-121.865482,12.23,21.791,False,499.3,773.7,True
+G1,D,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0179,fit,-4.172,crosshair=Diablo,N-CW,floor,2.0,37.820014,-121.703415,12.209,25.527,False,707.6,621.6,True
+G1,D,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0179,fit,-4.172,crosshair=Diablo,W-CCW,round,3.0,37.869609,-121.689886,12.202,25.445,False,730.1,547.9,True
+G1,D,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0179,fit,-4.172,crosshair=Diablo,W-CCW,floor,2.0,37.726597,-121.805428,12.227,23.481,False,573.5,752.8,True
+G1,D,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0179,fit,-4.172,crosshair=Diablo,W-CW,round,3.0,37.919438,-121.69448,12.199,24.855,False,731.0,472.0,True
+G1,D,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0179,fit,-4.172,crosshair=Diablo,W-CW,floor,2.0,38.04767,-121.835028,12.226,19.003,False,578.9,263.7,True
+G1,D,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0179,fit,-4.172,crosshair=Diablo,S-CCW,round,3.0,38.058374,-121.89771,12.231,16.375,False,505.2,241.1,True
+G1,D,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0179,fit,-4.172,crosshair=Diablo,S-CCW,floor,2.0,37.966955,-121.716962,12.202,23.751,False,710.1,397.7,True
+G1,D,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0179,fit,-4.172,crosshair=Diablo,S-CW,round,3.0,38.05474,-121.960688,12.229,13.459,False,429.3,240.3,True
+G1,D,"San Leandro,Hayward,Livermore,Vallejo",fit (archive),1.0179,fit,-4.172,crosshair=Diablo,S-CW,floor,2.0,37.943534,-122.122755,12.2,1.777,False,221.0,392.4,True
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,fit_A,-4.802,Diablo at crosshair,E-CCW,round,3.0,37.939423,-123.172646,68.778,55.716,False,-1037.4,292.9,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,fit_A,-4.802,Diablo at crosshair,E-CCW,floor,2.0,38.751528,-122.532318,68.835,60.433,False,-166.9,-872.3,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,fit_A,-4.802,Diablo at crosshair,E-CW,round,3.0,37.658663,-123.142836,68.911,57.337,False,-1037.4,721.0,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,fit_A,-4.802,Diablo at crosshair,E-CW,floor,2.0,36.942468,-122.340243,69.004,69.009,False,-166.9,1886.2,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,fit_A,-4.802,Diablo at crosshair,N-CCW,round,3.0,36.885179,-121.985946,68.975,72.738,False,250.2,2008.6,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,fit_A,-4.802,Diablo at crosshair,N-CCW,floor,2.0,37.391822,-123.012336,69.018,60.04,False,-915.0,1138.2,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,fit_A,-4.802,Diablo at crosshair,N-CW,round,3.0,36.908765,-121.631103,68.988,76.083,False,678.3,2008.6,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,fit_A,-4.802,Diablo at crosshair,N-CW,floor,2.0,37.543796,-120.725929,68.963,82.273,False,1843.5,1138.2,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,fit_A,-4.802,Diablo at crosshair,W-CCW,round,3.0,37.824125,-120.653524,68.831,81.957,False,1965.9,721.0,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,fit_A,-4.802,Diablo at crosshair,W-CCW,floor,2.0,37.01202,-121.293852,69.03,78.91,False,1095.5,1886.2,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,fit_A,-4.802,Diablo at crosshair,W-CW,round,3.0,38.104885,-120.683334,68.713,80.764,False,1965.9,292.9,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,fit_A,-4.802,Diablo at crosshair,W-CW,floor,2.0,38.82108,-121.485927,68.904,71.327,False,1095.5,-872.3,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,fit_A,-4.802,Diablo at crosshair,S-CCW,round,3.0,38.878369,-121.840224,68.972,67.657,False,678.3,-994.7,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,fit_A,-4.802,Diablo at crosshair,S-CCW,floor,2.0,38.371726,-120.813834,68.67,78.775,False,1843.5,-124.2,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,fit_A,-4.802,Diablo at crosshair,S-CW,round,3.0,38.854783,-122.195067,68.943,63.957,False,250.2,-994.7,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,fit_A,-4.802,Diablo at crosshair,S-CW,floor,2.0,38.219752,-123.100241,68.683,55.416,False,-915.0,-124.2,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,north_up_0,0.0,Diablo at crosshair,E-CCW,round,3.0,38.022649,-123.162125,68.743,55.48,False,-1014.2,168.0,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,north_up_0,0.0,Diablo at crosshair,E-CCW,floor,2.0,38.78949,-122.438124,68.871,61.412,False,-49.3,-920.3,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,north_up_0,0.0,Diablo at crosshair,E-CW,round,3.0,37.740899,-123.162125,68.872,56.734,False,-1050.0,594.6,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,north_up_0,0.0,Diablo at crosshair,E-CW,floor,2.0,36.974058,-122.438124,69.017,67.896,False,-280.2,1828.6,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,north_up_0,0.0,Diablo at crosshair,N-CCW,round,3.0,36.893503,-122.091131,68.98,71.675,False,125.3,1985.4,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,north_up_0,0.0,Diablo at crosshair,N-CCW,floor,2.0,37.466351,-123.060315,68.993,59.164,False,-963.0,1020.5,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,north_up_0,0.0,Diablo at crosshair,N-CW,round,3.0,36.893503,-121.735039,68.98,75.141,False,551.9,2021.3,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,north_up_0,0.0,Diablo at crosshair,N-CW,floor,2.0,37.466351,-120.765855,68.993,82.183,False,1785.9,1251.5,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,north_up_0,0.0,Diablo at crosshair,W-CCW,round,3.0,37.740899,-120.664045,68.872,82.147,False,1942.7,846.0,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,north_up_0,0.0,Diablo at crosshair,W-CCW,floor,2.0,36.974058,-121.388046,69.017,78.159,False,977.8,1934.2,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,north_up_0,0.0,Diablo at crosshair,W-CW,round,3.0,38.022649,-120.664045,68.743,81.202,False,1978.6,419.4,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,north_up_0,0.0,Diablo at crosshair,W-CW,floor,2.0,38.78949,-121.388046,68.871,72.345,False,1208.8,-814.6,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,north_up_0,0.0,Diablo at crosshair,S-CCW,round,3.0,38.870045,-121.735039,68.961,68.747,False,803.3,-971.5,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,north_up_0,0.0,Diablo at crosshair,S-CCW,floor,2.0,38.297197,-120.765855,68.672,79.428,False,1891.5,-6.6,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,north_up_0,0.0,Diablo at crosshair,S-CW,round,3.0,38.870045,-122.091131,68.961,65.045,False,376.7,-1007.3,False
+G2,fixed,five-or-none,Grinell-implied 28.7mi/5in,5.74,north_up_0,0.0,Diablo at crosshair,S-CW,floor,2.0,38.297197,-123.060315,68.672,55.602,False,-857.3,-237.5,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,fit_A,-4.802,Diablo at crosshair,E-CCW,round,3.0,37.946052,-123.317473,76.682,63.611,False,-1210.0,268.3,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,fit_A,-4.802,Diablo at crosshair,E-CCW,floor,2.0,38.851534,-122.603519,76.737,68.252,False,-239.5,-1030.9,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,fit_A,-4.802,Diablo at crosshair,E-CW,round,3.0,37.633009,-123.284236,76.847,65.228,False,-1210.0,745.7,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,fit_A,-4.802,Diablo at crosshair,E-CW,floor,2.0,36.834464,-122.389359,76.945,76.81,False,-239.5,2044.8,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,fit_A,-4.802,Diablo at crosshair,N-CCW,round,3.0,36.770588,-121.994324,76.906,80.551,False,225.6,2181.3,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,fit_A,-4.802,Diablo at crosshair,N-CCW,floor,2.0,37.335486,-123.138731,76.976,67.906,False,-1073.6,1210.8,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,fit_A,-4.802,Diablo at crosshair,N-CW,round,3.0,36.796886,-121.59868,76.923,83.934,False,703.0,2181.3,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,fit_A,-4.802,Diablo at crosshair,N-CW,floor,2.0,37.504935,-120.589427,76.91,90.22,False,2002.1,1210.8,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,fit_A,-4.802,Diablo at crosshair,W-CCW,round,3.0,37.817496,-120.508697,76.749,89.869,False,2138.6,745.7,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,fit_A,-4.802,Diablo at crosshair,W-CCW,floor,2.0,36.912014,-121.222651,76.98,86.812,False,1168.1,2044.8,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,fit_A,-4.802,Diablo at crosshair,W-CW,round,3.0,38.130539,-120.541934,76.601,88.626,False,2138.6,268.3,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,fit_A,-4.802,Diablo at crosshair,W-CW,floor,2.0,38.929084,-121.436811,76.82,79.111,False,1168.1,-1030.9,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,fit_A,-4.802,Diablo at crosshair,S-CCW,round,3.0,38.99296,-121.831846,76.902,75.452,False,703.0,-1167.3,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,fit_A,-4.802,Diablo at crosshair,S-CCW,floor,2.0,38.428062,-120.687439,76.544,86.591,False,2002.1,-196.8,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,fit_A,-4.802,Diablo at crosshair,S-CW,round,3.0,38.966662,-122.22749,76.867,71.763,False,225.6,-1167.3,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,fit_A,-4.802,Diablo at crosshair,S-CW,floor,2.0,38.258613,-123.236743,76.562,63.294,False,-1073.6,-196.8,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,north_up_0,0.0,Diablo at crosshair,E-CCW,round,3.0,38.038847,-123.305743,76.638,63.372,False,-1184.2,129.0,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,north_up_0,0.0,Diablo at crosshair,E-CCW,floor,2.0,38.893862,-122.498494,76.78,69.227,False,-108.3,-1084.4,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,north_up_0,0.0,Diablo at crosshair,E-CW,round,3.0,37.724701,-123.305743,76.799,64.629,False,-1224.1,604.7,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,north_up_0,0.0,Diablo at crosshair,E-CW,floor,2.0,36.869686,-122.498494,76.962,75.699,False,-365.8,1980.5,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,north_up_0,0.0,Diablo at crosshair,N-CCW,round,3.0,36.779869,-122.111604,76.912,79.481,False,86.3,2155.4,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,north_up_0,0.0,Diablo at crosshair,N-CCW,floor,2.0,37.418584,-123.192227,76.946,67.039,False,-1127.1,1079.6,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,north_up_0,0.0,Diablo at crosshair,N-CW,round,3.0,36.779869,-121.714566,76.912,82.979,False,562.0,2195.4,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,north_up_0,0.0,Diablo at crosshair,N-CW,floor,2.0,37.418584,-120.633943,76.946,90.135,False,1937.8,1337.1,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,north_up_0,0.0,Diablo at crosshair,W-CCW,round,3.0,37.724701,-120.520427,76.799,90.072,False,2112.7,885.0,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,north_up_0,0.0,Diablo at crosshair,W-CCW,floor,2.0,36.869686,-121.327676,76.962,86.046,False,1036.9,2098.3,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,north_up_0,0.0,Diablo at crosshair,W-CW,round,3.0,38.038847,-120.520427,76.638,89.08,False,2152.7,409.3,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,north_up_0,0.0,Diablo at crosshair,W-CW,floor,2.0,38.893862,-121.327676,76.78,80.128,False,1294.4,-966.5,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,north_up_0,0.0,Diablo at crosshair,S-CCW,round,3.0,38.983679,-121.714566,76.889,76.539,False,842.3,-1141.5,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,north_up_0,0.0,Diablo at crosshair,S-CCW,floor,2.0,38.344964,-120.633943,76.548,87.256,False,2055.6,-65.6,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,north_up_0,0.0,Diablo at crosshair,S-CW,round,3.0,38.983679,-122.111604,76.889,72.847,False,366.6,-1181.4,False
+G2,fixed,five-or-none,Cipher-Mysteries 6.4 mi/in,6.4,north_up_0,0.0,Diablo at crosshair,S-CW,floor,2.0,38.344964,-123.192227,76.548,63.474,False,-1009.2,-323.1,False
+G3,A_drop_Oakland,"San Leandro,Hayward,Livermore,Vallejo",fit (LOO),1.0904,fit,-4.933,crosshair+fitted offset,E-CCW,round,3.0,37.919751,-122.120372,11.602,1.773,False,220.8,428.6,True
+G3,A_drop_Oakland,"San Leandro,Hayward,Livermore,Vallejo",fit (LOO),1.0904,fit,-4.933,crosshair+fitted offset,E-CCW,floor,2.0,38.074238,-121.999183,14.101,12.935,False,385.6,206.9,True
+G3,A_drop_Oakland,"San Leandro,Hayward,Livermore,Vallejo",fit (LOO),1.0904,fit,-4.933,crosshair+fitted offset,E-CW,round,3.0,37.866428,-122.114555,11.039,4.793,False,221.0,509.9,True
+G3,A_drop_Oakland,"San Leandro,Hayward,Livermore,Vallejo",fit (LOO),1.0904,fit,-4.933,crosshair+fitted offset,E-CW,floor,2.0,37.730656,-121.9617,10.773,17.183,False,386.8,730.9,True
+G3,A_drop_Oakland,"San Leandro,Hayward,Livermore,Vallejo",fit (LOO),1.0904,fit,-4.933,crosshair+fitted offset,N-CCW,round,3.0,37.719896,-121.894367,11.231,20.136,False,466.1,754.0,True
+G3,A_drop_Oakland,"San Leandro,Hayward,Livermore,Vallejo",fit (LOO),1.0904,fit,-4.933,crosshair+fitted offset,N-CCW,floor,2.0,37.815784,-122.089618,10.656,8.545,False,244.4,589.1,True
+G3,A_drop_Oakland,"San Leandro,Hayward,Livermore,Vallejo",fit (LOO),1.0904,fit,-4.933,crosshair+fitted offset,N-CW,round,3.0,37.724499,-121.826974,11.84,22.641,False,547.4,753.8,True
+G3,A_drop_Oakland,"San Leandro,Hayward,Livermore,Vallejo",fit (LOO),1.0904,fit,-4.933,crosshair+fitted offset,N-CW,floor,2.0,37.845441,-121.655377,14.28,27.611,False,768.4,587.9,True
+G3,A_drop_Oakland,"San Leandro,Hayward,Livermore,Vallejo",fit (LOO),1.0904,fit,-4.933,crosshair+fitted offset,W-CCW,round,3.0,37.898717,-121.641777,14.84,27.804,False,791.5,508.6,True
+G3,A_drop_Oakland,"San Leandro,Hayward,Livermore,Vallejo",fit (LOO),1.0904,fit,-4.933,crosshair+fitted offset,W-CCW,floor,2.0,37.744229,-121.762967,12.548,24.721,False,626.6,730.4,True
+G3,A_drop_Oakland,"San Leandro,Hayward,Livermore,Vallejo",fit (LOO),1.0904,fit,-4.933,crosshair+fitted offset,W-CW,round,3.0,37.95204,-121.647595,15.264,27.437,False,791.3,427.3,True
+G3,A_drop_Oakland,"San Leandro,Hayward,Livermore,Vallejo",fit (LOO),1.0904,fit,-4.933,crosshair+fitted offset,W-CW,floor,2.0,38.087811,-121.800449,15.501,21.954,False,625.4,206.4,True
+G3,A_drop_Oakland,"San Leandro,Hayward,Livermore,Vallejo",fit (LOO),1.0904,fit,-4.933,crosshair+fitted offset,S-CCW,round,3.0,38.098572,-121.867783,15.181,19.301,False,546.1,183.3,True
+G3,A_drop_Oakland,"San Leandro,Hayward,Livermore,Vallejo",fit (LOO),1.0904,fit,-4.933,crosshair+fitted offset,S-CCW,floor,2.0,38.002684,-121.672531,15.544,26.509,False,767.9,348.1,True
+G3,A_drop_Oakland,"San Leandro,Hayward,Livermore,Vallejo",fit (LOO),1.0904,fit,-4.933,crosshair+fitted offset,S-CW,round,3.0,38.093969,-121.935176,14.711,16.305,False,464.8,183.5,True
+G3,A_drop_Oakland,"San Leandro,Hayward,Livermore,Vallejo",fit (LOO),1.0904,fit,-4.933,crosshair+fitted offset,S-CW,floor,2.0,37.973027,-122.106773,12.296,3.815,False,243.9,349.3,True
+G3,A_drop_San Leandro,"Oakland,Hayward,Livermore,Vallejo",fit (LOO),1.1754,fit,-4.104,crosshair+fitted offset,E-CCW,round,3.0,37.929519,-122.160435,13.882,0.552,True,174.0,409.8,True
+G3,A_drop_San Leandro,"Oakland,Hayward,Livermore,Vallejo",fit (LOO),1.1754,fit,-4.104,crosshair+fitted offset,E-CCW,floor,2.0,38.094532,-122.026766,15.951,13.221,False,355.2,173.4,True
+G3,A_drop_San Leandro,"Oakland,Hayward,Livermore,Vallejo",fit (LOO),1.1754,fit,-4.104,crosshair+fitted offset,E-CW,round,3.0,37.871974,-122.155218,13.223,4.004,False,173.0,497.5,True
+G3,A_drop_San Leandro,"Oakland,Hayward,Livermore,Vallejo",fit (LOO),1.1754,fit,-4.104,crosshair+fitted offset,E-CW,floor,2.0,37.723748,-121.993146,11.761,16.621,False,348.3,738.2,True
+G3,A_drop_San Leandro,"Oakland,Hayward,Livermore,Vallejo",fit (LOO),1.1754,fit,-4.104,crosshair+fitted offset,N-CCW,round,3.0,37.711318,-121.920785,11.785,19.617,False,433.4,764.3,True
+G3,A_drop_San Leandro,"Oakland,Hayward,Livermore,Vallejo",fit (LOO),1.1754,fit,-4.104,crosshair+fitted offset,N-CCW,floor,2.0,37.817081,-122.129339,12.617,7.871,False,197.0,583.2,True
+G3,A_drop_San Leandro,"Oakland,Hayward,Livermore,Vallejo",fit (LOO),1.1754,fit,-4.104,crosshair+fitted offset,N-CW,round,3.0,37.715447,-121.848056,12.028,22.169,False,521.0,765.4,True
+G3,A_drop_San Leandro,"Oakland,Hayward,Livermore,Vallejo",fit (LOO),1.1754,fit,-4.104,crosshair+fitted offset,N-CW,floor,2.0,37.843682,-121.660718,14.016,27.353,False,761.8,590.1,True
+G3,A_drop_San Leandro,"Oakland,Hayward,Livermore,Vallejo",fit (LOO),1.1754,fit,-4.104,crosshair+fitted offset,W-CCW,round,3.0,37.900936,-121.645009,14.677,27.616,False,787.9,505.0,True
+G3,A_drop_San Leandro,"Oakland,Hayward,Livermore,Vallejo",fit (LOO),1.1754,fit,-4.104,crosshair+fitted offset,W-CCW,floor,2.0,37.735922,-121.778678,12.465,24.305,False,606.8,741.4,True
+G3,A_drop_San Leandro,"Oakland,Hayward,Livermore,Vallejo",fit (LOO),1.1754,fit,-4.104,crosshair+fitted offset,W-CW,round,3.0,37.95848,-121.650227,15.276,27.321,False,789.0,417.3,True
+G3,A_drop_San Leandro,"Oakland,Hayward,Livermore,Vallejo",fit (LOO),1.1754,fit,-4.104,crosshair+fitted offset,W-CW,floor,2.0,38.106706,-121.812298,16.482,22.09,False,613.6,176.6,True
+G3,A_drop_San Leandro,"Oakland,Hayward,Livermore,Vallejo",fit (LOO),1.1754,fit,-4.104,crosshair+fitted offset,S-CCW,round,3.0,38.119136,-121.88466,16.473,19.499,False,528.5,150.4,True
+G3,A_drop_San Leandro,"Oakland,Hayward,Livermore,Vallejo",fit (LOO),1.1754,fit,-4.104,crosshair+fitted offset,S-CCW,floor,2.0,38.013374,-121.676105,15.792,26.467,False,764.9,331.6,True
+G3,A_drop_San Leandro,"Oakland,Hayward,Livermore,Vallejo",fit (LOO),1.1754,fit,-4.104,crosshair+fitted offset,S-CW,round,3.0,38.115008,-121.957388,16.295,16.554,False,440.9,149.4,True
+G3,A_drop_San Leandro,"Oakland,Hayward,Livermore,Vallejo",fit (LOO),1.1754,fit,-4.104,crosshair+fitted offset,S-CW,floor,2.0,37.986773,-122.144726,14.56,3.949,False,200.1,324.7,True
+G3,A_drop_Hayward,"Oakland,San Leandro,Livermore,Vallejo",fit (LOO),1.1946,fit,-3.236,crosshair+fitted offset,E-CCW,round,3.0,37.923106,-122.158171,13.664,0.63,True,175.9,419.7,True
+G3,A_drop_Hayward,"Oakland,San Leandro,Livermore,Vallejo",fit (LOO),1.1946,fit,-3.236,crosshair+fitted offset,E-CCW,floor,2.0,38.089178,-122.019116,15.45,13.126,False,363.6,182.3,True
+G3,A_drop_Hayward,"Oakland,San Leandro,Livermore,Vallejo",fit (LOO),1.1946,fit,-3.236,crosshair+fitted offset,E-CW,round,3.0,37.864561,-122.153988,13.193,4.512,False,173.5,508.8,True
+G3,A_drop_Hayward,"Oakland,San Leandro,Livermore,Vallejo",fit (LOO),1.1946,fit,-3.236,crosshair+fitted offset,E-CW,floor,2.0,37.711948,-121.992163,12.503,17.351,False,347.9,756.2,True
+G3,A_drop_Hayward,"Oakland,San Leandro,Livermore,Vallejo",fit (LOO),1.1946,fit,-3.236,crosshair+fitted offset,N-CCW,round,3.0,37.698435,-121.918865,12.672,20.375,False,434.0,784.0,True
+G3,A_drop_Hayward,"Oakland,San Leandro,Livermore,Vallejo",fit (LOO),1.1946,fit,-3.236,crosshair+fitted offset,N-CCW,floor,2.0,37.808459,-122.128757,12.811,8.465,False,196.6,596.3,True
+G3,A_drop_Hayward,"Oakland,San Leandro,Livermore,Vallejo",fit (LOO),1.1946,fit,-3.236,crosshair+fitted offset,N-CW,round,3.0,37.701745,-121.844872,12.985,22.94,False,523.1,786.4,True
+G3,A_drop_Hayward,"Oakland,San Leandro,Livermore,Vallejo",fit (LOO),1.1946,fit,-3.236,crosshair+fitted offset,N-CW,floor,2.0,37.829785,-121.65199,14.69,28.041,False,770.5,612.0,True
+G3,A_drop_Hayward,"Oakland,San Leandro,Livermore,Vallejo",fit (LOO),1.1946,fit,-3.236,crosshair+fitted offset,W-CCW,round,3.0,37.88778,-121.634911,15.175,28.247,False,798.3,525.9,True
+G3,A_drop_Hayward,"Oakland,San Leandro,Livermore,Vallejo",fit (LOO),1.1946,fit,-3.236,crosshair+fitted offset,W-CCW,floor,2.0,37.721708,-121.773966,13.416,25.072,False,610.6,763.4,True
+G3,A_drop_Hayward,"Oakland,San Leandro,Livermore,Vallejo",fit (LOO),1.1946,fit,-3.236,crosshair+fitted offset,W-CW,round,3.0,37.946325,-121.639094,15.587,27.881,False,800.7,436.8,True
+G3,A_drop_Hayward,"Oakland,San Leandro,Livermore,Vallejo",fit (LOO),1.1946,fit,-3.236,crosshair+fitted offset,W-CW,floor,2.0,38.098938,-121.80092,16.2,22.324,False,626.3,189.5,True
+G3,A_drop_Hayward,"Oakland,San Leandro,Livermore,Vallejo",fit (LOO),1.1946,fit,-3.236,crosshair+fitted offset,S-CCW,round,3.0,38.112451,-121.874218,16.078,19.625,False,540.2,161.6,True
+G3,A_drop_Hayward,"Oakland,San Leandro,Livermore,Vallejo",fit (LOO),1.1946,fit,-3.236,crosshair+fitted offset,S-CCW,floor,2.0,38.002427,-121.664325,15.913,26.944,False,777.7,349.3,True
+G3,A_drop_Hayward,"Oakland,San Leandro,Livermore,Vallejo",fit (LOO),1.1946,fit,-3.236,crosshair+fitted offset,S-CW,round,3.0,38.109141,-121.94821,15.826,16.571,False,451.1,159.2,True
+G3,A_drop_Hayward,"Oakland,San Leandro,Livermore,Vallejo",fit (LOO),1.1946,fit,-3.236,crosshair+fitted offset,S-CW,floor,2.0,37.981101,-122.141092,14.195,3.581,False,203.8,333.6,True
+G3,A_drop_Livermore,"Oakland,San Leandro,Hayward,Vallejo",fit (LOO),1.1014,fit,-7.944,crosshair+fitted offset,E-CCW,round,3.0,37.931897,-122.162251,14.018,0.666,True,172.2,406.0,True
+G3,A_drop_Livermore,"Oakland,San Leandro,Hayward,Vallejo",fit (LOO),1.1014,fit,-7.944,crosshair+fitted offset,E-CCW,floor,2.0,38.09282,-122.050363,16.387,12.51,False,326.7,173.6,True
+G3,A_drop_Livermore,"Oakland,San Leandro,Hayward,Vallejo",fit (LOO),1.1014,fit,-7.944,crosshair+fitted offset,E-CW,round,3.0,37.878354,-122.152807,13.076,3.557,False,176.7,488.0,True
+G3,A_drop_Livermore,"Oakland,San Leandro,Hayward,Vallejo",fit (LOO),1.1014,fit,-7.944,crosshair+fitted offset,E-CW,floor,2.0,37.747814,-121.989515,10.153,15.333,False,355.7,702.1,True
+G3,A_drop_Livermore,"Oakland,San Leandro,Hayward,Vallejo",fit (LOO),1.1014,fit,-7.944,crosshair+fitted offset,N-CCW,round,3.0,37.739786,-121.920873,9.82,18.142,False,436.9,721.2,True
+G3,A_drop_Livermore,"Oakland,San Leandro,Hayward,Vallejo",fit (LOO),1.1014,fit,-7.944,crosshair+fitted offset,N-CCW,floor,2.0,37.828314,-122.124257,12.098,7.154,False,204.5,566.7,True
+G3,A_drop_Livermore,"Oakland,San Leandro,Hayward,Vallejo",fit (LOO),1.1014,fit,-7.944,crosshair+fitted offset,N-CW,round,3.0,37.747258,-121.853201,9.852,20.541,False,518.9,716.7,True
+G3,A_drop_Livermore,"Oakland,San Leandro,Hayward,Vallejo",fit (LOO),1.1014,fit,-7.944,crosshair+fitted offset,N-CW,floor,2.0,37.876458,-121.688216,12.269,25.461,False,733.0,537.7,True
+G3,A_drop_Livermore,"Oakland,San Leandro,Hayward,Vallejo",fit (LOO),1.1014,fit,-7.944,crosshair+fitted offset,W-CCW,round,3.0,37.93077,-121.67807,13.252,25.737,False,752.1,456.5,True
+G3,A_drop_Livermore,"Oakland,San Leandro,Hayward,Vallejo",fit (LOO),1.1014,fit,-7.944,crosshair+fitted offset,W-CCW,floor,2.0,37.769847,-121.789958,10.245,22.554,False,597.6,688.9,True
+G3,A_drop_Livermore,"Oakland,San Leandro,Hayward,Vallejo",fit (LOO),1.1014,fit,-7.944,crosshair+fitted offset,W-CW,round,3.0,37.984314,-121.687513,14.188,25.493,False,747.6,374.4,True
+G3,A_drop_Livermore,"Oakland,San Leandro,Hayward,Vallejo",fit (LOO),1.1014,fit,-7.944,crosshair+fitted offset,W-CW,floor,2.0,38.114853,-121.850805,16.458,20.719,False,568.5,160.3,True
+G3,A_drop_Livermore,"Oakland,San Leandro,Hayward,Vallejo",fit (LOO),1.1014,fit,-7.944,crosshair+fitted offset,S-CCW,round,3.0,38.122881,-121.919448,16.663,18.327,False,487.3,141.3,True
+G3,A_drop_Livermore,"Oakland,San Leandro,Hayward,Vallejo",fit (LOO),1.1014,fit,-7.944,crosshair+fitted offset,S-CCW,floor,2.0,38.034353,-121.716063,15.045,24.728,False,719.7,295.8,True
+G3,A_drop_Livermore,"Oakland,San Leandro,Hayward,Vallejo",fit (LOO),1.1014,fit,-7.944,crosshair+fitted offset,S-CW,round,3.0,38.11541,-121.98712,16.639,15.601,False,405.3,145.8,True
+G3,A_drop_Livermore,"Oakland,San Leandro,Hayward,Vallejo",fit (LOO),1.1014,fit,-7.944,crosshair+fitted offset,S-CW,floor,2.0,37.986209,-122.152104,14.891,3.899,False,191.2,324.8,True
+G3,A_drop_Vallejo,"Oakland,San Leandro,Hayward,Livermore",fit (LOO),1.3317,fit,-5.013,crosshair+fitted offset,E-CCW,round,3.0,37.968072,-122.167256,15.082,2.801,False,170.8,350.7,True
+G3,A_drop_Vallejo,"Oakland,San Leandro,Hayward,Livermore",fit (LOO),1.3317,fit,-5.013,crosshair+fitted offset,E-CCW,floor,2.0,38.156923,-122.019572,19.875,17.231,False,371.7,79.7,True
+G3,A_drop_Vallejo,"Oakland,San Leandro,Hayward,Livermore",fit (LOO),1.3317,fit,-5.013,crosshair+fitted offset,E-CW,round,3.0,37.902953,-122.160037,13.545,1.929,False,171.1,450.1,True
+G3,A_drop_Vallejo,"Oakland,San Leandro,Hayward,Livermore",fit (LOO),1.3317,fit,-5.013,crosshair+fitted offset,E-CW,floor,2.0,37.737332,-121.973052,10.503,16.444,False,374.1,719.7,True
+G3,A_drop_Vallejo,"Oakland,San Leandro,Hayward,Livermore",fit (LOO),1.3317,fit,-5.013,crosshair+fitted offset,N-CCW,round,3.0,37.72428,-121.890789,10.95,20.056,False,471.0,747.7,True
+G3,A_drop_Vallejo,"Oakland,San Leandro,Hayward,Livermore",fit (LOO),1.3317,fit,-5.013,crosshair+fitted offset,N-CCW,floor,2.0,37.841132,-122.12947,12.133,6.231,False,199.9,546.7,True
+G3,A_drop_Vallejo,"Oakland,San Leandro,Hayward,Livermore",fit (LOO),1.3317,fit,-5.013,crosshair+fitted offset,N-CW,round,3.0,37.729993,-121.808487,11.941,23.207,False,570.3,747.3,True
+G3,A_drop_Vallejo,"Oakland,San Leandro,Hayward,Livermore",fit (LOO),1.3317,fit,-5.013,crosshair+fitted offset,N-CW,floor,2.0,37.87794,-121.599164,17.122,30.261,False,839.9,544.4,True
+G3,A_drop_Vallejo,"Oakland,San Leandro,Hayward,Livermore",fit (LOO),1.3317,fit,-5.013,crosshair+fitted offset,W-CCW,round,3.0,37.943028,-121.582669,18.502,30.947,False,867.9,447.5,True
+G3,A_drop_Vallejo,"Oakland,San Leandro,Hayward,Livermore",fit (LOO),1.3317,fit,-5.013,crosshair+fitted offset,W-CCW,floor,2.0,37.754177,-121.730353,13.312,25.929,False,667.0,718.6,True
+G3,A_drop_Vallejo,"Oakland,San Leandro,Hayward,Livermore",fit (LOO),1.3317,fit,-5.013,crosshair+fitted offset,W-CW,round,3.0,38.008147,-121.589889,19.656,31.003,False,867.6,348.2,True
+G3,A_drop_Vallejo,"Oakland,San Leandro,Hayward,Livermore",fit (LOO),1.3317,fit,-5.013,crosshair+fitted offset,W-CW,floor,2.0,38.173768,-121.776873,21.494,26.401,False,664.6,78.6,True
+G3,A_drop_Vallejo,"Oakland,San Leandro,Hayward,Livermore",fit (LOO),1.3317,fit,-5.013,crosshair+fitted offset,S-CCW,round,3.0,38.18682,-121.859136,21.28,23.798,False,567.7,50.5,True
+G3,A_drop_Vallejo,"Oakland,San Leandro,Hayward,Livermore",fit (LOO),1.3317,fit,-5.013,crosshair+fitted offset,S-CCW,floor,2.0,38.069969,-121.620455,20.569,30.432,False,838.8,251.5,True
+G3,A_drop_Vallejo,"Oakland,San Leandro,Hayward,Livermore",fit (LOO),1.3317,fit,-5.013,crosshair+fitted offset,S-CW,round,3.0,38.181108,-121.941438,20.74,20.753,False,468.4,50.9,True
+G3,A_drop_Vallejo,"Oakland,San Leandro,Hayward,Livermore",fit (LOO),1.3317,fit,-5.013,crosshair+fitted offset,S-CW,floor,2.0,38.033161,-122.150761,16.645,7.142,False,198.8,253.8,True

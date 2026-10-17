@@ -1,0 +1,5 @@
+method,cx_px,cy_px
+lines_argmax,490,454
+lines_subpixel_centroid,490.49,454.36
+ring_fits_weighted_mean,490.88,454.3
+mean_of_outer_boxes_and_marker,491.0,454.25

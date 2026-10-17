@@ -1,0 +1,49 @@
+workspace_path,reason
+z32_independent_audit.zip,archive duplicate
+z32_map_calibration_audit.zip,archive duplicate
+z32_next_review.zip,archive duplicate
+z32_repro_bundle.zip,archive duplicate
+z32_checkpoint/figures/blind_review2_first10.png,image
+z32_checkpoint/figures/check_first_cells.png,image
+z32_checkpoint/figures/key_atlas_final.png,image
+z32_checkpoint/figures/trans_suspect_small.png,image
+z32_independent_audit/images/fig1_all_panels_p8_native.png,image
+z32_independent_audit/images/fig2_grid_overlay_for_reading.png,image
+z32_independent_audit/images/fig2_map_p9_native.png,image
+z32_independent_audit/input/2023-982.pdf,publication copy (PDF)
+z32_map_calibration_audit/images/fig1_all_panels_p8_native.png,image
+z32_map_calibration_audit/images/fig2_map_p9_native.png,image
+z32_map_calibration_audit/input/2023-982.pdf,publication copy (PDF)
+z32_next_review/images/fig1_all_panels_p8_native.png,image
+z32_next_review/images/fig2_grid_overlay_for_reading.png,image
+z32_next_review/images/fig2_map_p9_native.png,image
+z32_next_review/input/2023-982.pdf,publication copy (PDF)
+z32_repro/fig1_all_panels_p8_native.png,image
+z32_repro/fig2_map_p9_native.png,image
+z32_repro/input/2023-982.pdf,publication copy (PDF)
+z32_repro/superseded/fig1_all_panels_p8_native.png,image
+z32_repro/superseded/fig2_map_p9_native.png,image
+phase1/blind_review2_first10.png,image
+phase1/blind_review_first10.png,image
+phase1/check_first_cells.png,image
+phase1/key_atlas.png,image
+phase1/key_atlas_final.png,image
+phase1/paged.txt,text extracted from a publication
+phase1/paper.txt,text extracted from a publication
+phase1/tmp_num.png,image
+phase1/trans_bw.png,image
+phase1/trans_suspect_montage.png,image
+phase1/trans_suspect_small.png,image
+phase1/img/p01-000.png,image
+phase1/img/p05-000.png,image
+phase1/img/p05-001.png,image
+phase1/img/p05-002.png,image
+phase1/img/p31-000.png,image
+phase1/img/p31-001.png,image
+phase1/img/p31-002.png,image
+phase1/img/p50-000.png,image
+work/foxon.txt,publication-derived or image
+work/p7_bbox.html,publication-derived or image
+work/p7-07.png,publication-derived or image
+work/p7_formula_crop.png,publication-derived or image
+work/fig2_center_2x.png,publication-derived or image

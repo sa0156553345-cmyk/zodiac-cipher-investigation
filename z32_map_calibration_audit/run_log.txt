@@ -1,0 +1,182 @@
+run at (UTC): 2026-10-11T22:40:57Z
+Python 3.12.3
+numpy 2.4.4 | Pillow 12.1.1
+== 1. geodesy tests ==
+PASS DMS: Mount Diablo NAD27 latitude 37.881774
+PASS DMS: Mount Diablo NAD27 longitude -121.913085
+PASS DMS: southern/western sign 
+PASS Vincenty reference distance (54972.271 m) 54972.271 m
+PASS Vincenty reference azimuth (306.8681 deg) 306.86816 deg
+PASS Round trip inverse->direct (max error < 1 mm) max error 0.000003 m
+PASS Distance symmetry -0.000000000 m
+PASS Ellipsoid vs sphere difference < 0.5 % at ~20 miles Vincenty 20.2799 mi, haversine 20.2378 mi, relative 0.208 %
+PASS Bearing: destination due east gives bearing 90 90.000000
+PASS Bearing: destination due north gives bearing 0 0.000000
+PASS Destination then distance returns 13 miles 13.000000000 mi
+PASS East/North components for due-east point E=10.000000, N=-0.000000
+PASS Datum effect NAD27 vs USSD at Diablo < 0.1 mile 0.0283 mi (45.5 m)
+
+13 of 13 tests passed
+== 2. figure measurements ==
+centre estimates: [('lines_argmax', 490, 454), ('lines_subpixel_centroid', 490.49, 454.36), ('ring_fits_weighted_mean', 490.88, 454.3), ('mean_of_outer_boxes_and_marker', 491.0, 454.25)]
+maximum disagreement between centre methods: 1.03 px
+ring 4: centre (490.88,454.30) radius 102.58 px, inliers 584, rms 0.673 px
+ring 8: centre (490.89,454.30) radius 205.16 px, inliers 1684, rms 0.677 px
+ring 12: centre (490.87,454.31) radius 307.70 px, inliers 2740, rms 0.729 px
+outer boxes/marker radius: mean 308.12 px, sd 0.54 px, range 307.45-308.86
+angle labels, max |residual| deg: 0.54
+ring_fits_kasa_4_8_12: mean 25.644 px/unit, sd 0.002
+outer_boxes_and_marker_mean: mean 25.677 px/unit, sd nan
+outer_boxes_individual: mean 25.677 px/unit, sd 0.045
+least_squares_radius_vs_units_through_origin: mean 25.643 px/unit, sd nan
+combined px per unit (mean of method means): 25.660; spread between methods: 0.019 px/unit (0.08 %)
+white marker vs predicted (12 units, 3 rad) in figure frame: 0.85 px difference
+== 3. georeferencing G1..G8 ==
+G1: similarity, 5 cities, free offset: px/mile 21.999, s_fit 1.166 mi/unit, rotation -4.72 deg, offset (-26.7,-53.0) px, rms 54.0 px, worst 128.4 px
+G2: similarity, 5 cities, zero offset (crosshair = summit): px/mile 23.525, s_fit 1.091 mi/unit, rotation -1.77 deg, offset (0.0,0.0) px, rms 63.3 px, worst 132.9 px
+G3: affine, 5 cities, free offset: px/mile 22.046, s_fit 1.164 mi/unit, rotation nan deg, offset (-56.5,1.9) px, rms 44.8 px, worst 102.4 px
+G4: similarity, free offset, without Oakland: px/mile 23.455, s_fit 1.094 mi/unit, rotation -4.86 deg, offset (-45.8,-40.7) px, rms 28.3 px, worst 52.4 px
+G5: similarity, free offset, without San Leandro: px/mile 21.749, s_fit 1.180 mi/unit, rotation -4.03 deg, offset (-17.0,-49.3) px, rms 56.5 px, worst 112.8 px
+G6: similarity, free offset, without Hayward: px/mile 21.396, s_fit 1.199 mi/unit, rotation -3.17 deg, offset (-22.4,-33.9) px, rms 51.5 px, worst 112.3 px
+G7: similarity, free offset, without Livermore: px/mile 23.231, s_fit 1.105 mi/unit, rotation -7.80 deg, offset (-2.6,-79.4) px, rms 55.9 px, worst 131.9 px
+G8: similarity, free offset, without Vallejo: px/mile 19.161, s_fit 1.339 mi/unit, rotation -4.99 deg, offset (-49.4,-94.6) px, rms 53.2 px, worst 93.4 px
+written georeg_fits.csv and georeg_residuals.csv
+== 4. transform tests ==
+PASS R0 theta=0 gives 1 mile east [1. 0.]
+PASS R0 theta=pi/2 gives 1 mile north (anticlockwise from east) [6.123234e-17 1.000000e+00]
+PASS R1 theta=pi/2 gives 1 mile south (clockwise) [ 6.123234e-17 -1.000000e+00]
+PASS R0 theta=3 rad lies WNW of east (171.9 deg) angle 171.887
+PASS 3 radians equals 171.887 degrees (not 3 degrees) 
+PASS R2 theta=0 gives bearing = declination (16.9) bearing 16.900000
+PASS R2 theta=90 deg gives bearing 106.9 bearing 106.900000
+PASS R3 theta=90 deg gives bearing -73.1 (= 286.9) bearing 286.900000
+PASS R4p (+D) theta=0 gives bearing 106.9 bearing 106.900000
+PASS R4m (-D) theta=0 gives bearing 73.1 bearing 73.100000
+PASS round(16.9/6) = 3 minutes 
+PASS floor(16.9/6) = 2 minutes 
+PASS N_round is (12,3), N_floor is (12,2) 
+PASS scale 6.4 gives 76.8 miles for 12 units 76.8000 mi
+PASS fixed scale 1.0 gives 12 miles for 12 units 12.000000
+PASS numeric s = s_fit equals exact figure mode for a similarity fit difference 3.55e-15 mi
+PASS affine: figure displacement maps back exactly 
+PASS zero-offset model: PC and PS poles coincide 
+PASS offset model: PC and PS poles differ by exactly A^-1(-t) difference [-0.3897  0.    ] vs A^-1(-t) [-0.3897  0.    ]
+PASS crosshair pole maps to A^-1(-t) 
+PASS physical-summit pole gives origin (0,0) 
+PASS EN -> lat/lon -> EN round trip (< 1e-6 mi) -4.58e-11, -6.84e-14
+PASS 6.4 mi/unit puts the site outside the figure frame (infeasible) px -1182, py 216
+PASS baseline (12,3) with fitted scale lies inside the figure frame px 186.0, py 410.8
+PASS Foxon white marker equals predicted (12 units, 3 rad) in the figure frame (< 3 px) 0.85 px
+PASS outer angle labels follow east=0, anticlockwise, radians (max residual < 1 deg) max 0.54 deg
+PASS baseline site: Vincenty distance from summit equals the EN magnitude (< 0.1 %) Vincenty 13.38020, EN 13.38020
+
+27 of 27 tests passed
+== 5. pre-registered transform family ==
+configurations: 4800; inside the figure frame: 3695
+baseline (N_round, R0, D=16.9, fit, G1, PC): lat 37.92979, lon -122.15032, inside=True
+configurations_total: 4800
+configurations_inside_figure: 3695
+baseline_lat: 37.929792
+baseline_lon: -122.150318
+baseline_inside_figure: True
+core_paper_supported_set_size: 48
+core_max_pairwise_spread_mi: 5.982
+all_feasible_max_pairwise_spread_mi: 43.114
+pre_registered_threshold_mi: 1.0
+core_determines_location_to_threshold: False
+all_feasible_determines_location_to_threshold: False
+feasible_count[number=N_round]: 480
+baseline: shift 0.0 mi, inside=True
+number N_floor: shift 13.421 mi, inside=True
+number N_30: shift 17.468 mi, inside=True
+number N_312: shift 17.246 mi, inside=True
+number N_03: shift 13.997 mi, inside=True
+reference R1: shift 3.951 mi, inside=True
+reference R2: shift 18.841 mi, inside=True
+reference R3: shift 15.73 mi, inside=True
+reference R4p: shift 4.114 mi, inside=True
+reference R4m: shift 4.114 mi, inside=True
+declination 0.0 (R0): shift 0.0 mi, inside=True
+declination 0.0 (R2): shift 21.679 mi, inside=True
+declination 15.0 (R0): shift 0.0 mi, inside=True
+declination 15.0 (R2): shift 19.181 mi, inside=True
+declination 16.3 (R0): shift 0.0 mi, inside=True
+declination 16.3 (R2): shift 18.949 mi, inside=True
+declination 17.7 (R0): shift 0.0 mi, inside=True
+declination 17.7 (R2): shift 18.696 mi, inside=True
+scale 6.4 mi/unit: shift 62.803 mi, inside=False
+georeg G2: shift 1.883 mi, inside=True
+georeg G3: shift 0.884 mi, inside=True
+georeg G4: shift 1.788 mi, inside=True
+georeg G5: shift 0.541 mi, inside=True
+georeg G6: shift 0.616 mi, inside=True
+georeg G7: shift 0.663 mi, inside=True
+georeg G8: shift 2.851 mi, inside=True
+pole = physical summit (PS): shift 2.698 mi, inside=True
+datum summit USSD instead of NAD27 (R0, G1, PC): shift 0.028 mi, inside=True
+written transform outputs
+== 6. rotation test (exploratory) ==
+true north up (0 deg)            free offset: rms   81.1 px, worst  127.5 px, s_fit 1.170 mi/unit
+true north up (0 deg)            zero offset: rms   90.6 px, worst  125.1 px, s_fit 1.091 mi/unit
+declination east (+16.9 deg)     free offset: rms  143.6 px, worst  206.0 px, s_fit 1.255 mi/unit
+declination east (+16.9 deg)     zero offset: rms  169.4 px, worst  208.4 px, s_fit 1.151 mi/unit
+declination west (-16.9 deg)     free offset: rms  103.3 px, worst  128.1 px, s_fit 1.193 mi/unit
+declination west (-16.9 deg)     zero offset: rms  147.5 px, worst  208.0 px, s_fit 1.130 mi/unit
+== 7. pre-registered pairwise scale criterion ==
+pairs: 10
+miles_per_unit_median: 1.0824
+miles_per_unit_min: 0.875
+miles_per_unit_max: 1.6468
+relative_spread_max_minus_min_over_median: 0.713
+criterion_below_10_percent: False
+== 8. checksums ==
+./README.md: OK
+./data/controls.csv: OK
+./data/reference_points.csv: OK
+./docs/ASSUMPTION_REGISTER.md: OK
+./docs/CHANGE_LOG.md: OK
+./docs/MAP_CALIBRATION_REPORT.md: OK
+./docs/PREREGISTRATION_TRANSFORMS.md: OK
+./images/fig1_all_panels_p8_native.png: OK
+./images/fig2_map_p9_native.png: OK
+./input/2023-982.pdf: OK
+./previous_results/README_PREVIOUS.md: OK
+./previous_results/audit_06_pairwise.csv: OK
+./previous_results/audit_07_leave_one_out.csv: OK
+./previous_results/audit_07_noise_sweep.csv: OK
+./previous_results/audit_11_rounding_sensitivity.csv: OK
+./previous_results/docs_previous_audit/AUDIT_REPORT.md: OK
+./previous_results/docs_previous_audit/CORRECTIONS_LOG.md: OK
+./previous_results/landmarks_previous_package.csv: OK
+./previous_results/map_audit_landmarks.csv: OK
+./previous_results/map_audit_models.csv: OK
+./previous_results/map_crosshair_and_rings.csv: OK
+./requirements.txt: OK
+./results/degrees_unsupported.csv: OK
+./results/fig_angle_labels.csv: OK
+./results/fig_boxes_radius.csv: OK
+./results/fig_centre_estimates.csv: OK
+./results/fig_marker_consistency.csv: OK
+./results/fig_px_per_unit_combined.csv: OK
+./results/fig_px_per_unit_methods.csv: OK
+./results/fig_ring_fits.csv: OK
+./results/georeg_fits.csv: OK
+./results/georeg_residuals.csv: OK
+./results/noctrl_family.csv: OK
+./results/pairwise_scale.csv: OK
+./results/pairwise_scale_summary.csv: OK
+./results/rotation_test.csv: OK
+./results/scale_curve.csv: OK
+./results/transform_grid.csv: OK
+./results/transform_sensitivity.csv: OK
+./results/transform_summary.csv: OK
+./run_all.sh: OK
+./scripts/fig_measure.py: OK
+./scripts/geodesy.py: OK
+./scripts/georeg.py: OK
+./scripts/pairwise_scale.py: OK
+./scripts/rotation_test.py: OK
+./scripts/tests_geodesy.py: OK
+./scripts/tests_transforms.py: OK
+./scripts/transforms.py: OK
+== done ==

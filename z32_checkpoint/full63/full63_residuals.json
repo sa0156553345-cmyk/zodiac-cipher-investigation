@@ -1,0 +1,1163 @@
+{
+ "agree_full": 207,
+ "agree_corrected": 213,
+ "corrections": {
+  "0": "I01",
+  "7": "U03",
+  "10": "E03",
+  "17": "L01",
+  "23": "F01",
+  "25": "N05"
+ },
+ "residuals": [
+  {
+   "k": 12,
+   "cell": "r4c8",
+   "chosen": "U02",
+   "chosen_letter": "U",
+   "reference": "A",
+   "top1_score": 0.745,
+   "rank_of_best_reference_glyph": 5
+  },
+  {
+   "k": 14,
+   "cell": "r6c12",
+   "chosen": "T03",
+   "chosen_letter": "T",
+   "reference": "I",
+   "top1_score": 0.627,
+   "rank_of_best_reference_glyph": 6
+  },
+  {
+   "k": 26,
+   "cell": "r9c2",
+   "chosen": "E01",
+   "chosen_letter": "E",
+   "reference": "I",
+   "top1_score": 0.588,
+   "rank_of_best_reference_glyph": 15
+  },
+  {
+   "k": 28,
+   "cell": "r2c6",
+   "chosen": "V01",
+   "chosen_letter": "V",
+   "reference": "T",
+   "top1_score": 0.624,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 29,
+   "cell": "r3c8",
+   "chosen": "T03",
+   "chosen_letter": "T",
+   "reference": "R",
+   "top1_score": 0.6,
+   "rank_of_best_reference_glyph": 4
+  },
+  {
+   "k": 31,
+   "cell": "r5c12",
+   "chosen": "F01",
+   "chosen_letter": "F",
+   "reference": "I",
+   "top1_score": 0.725,
+   "rank_of_best_reference_glyph": 7
+  },
+  {
+   "k": 32,
+   "cell": "r6c14",
+   "chosen": "I03",
+   "chosen_letter": "I",
+   "reference": "N",
+   "top1_score": 0.575,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 37,
+   "cell": "r2c7",
+   "chosen": "R02",
+   "chosen_letter": "R",
+   "reference": "A",
+   "top1_score": 0.795,
+   "rank_of_best_reference_glyph": 6
+  },
+  {
+   "k": 38,
+   "cell": "r3c9",
+   "chosen": "N04",
+   "chosen_letter": "N",
+   "reference": "T",
+   "top1_score": 0.695,
+   "rank_of_best_reference_glyph": 3
+  },
+  {
+   "k": 41,
+   "cell": "r6c15",
+   "chosen": "V01",
+   "chosen_letter": "V",
+   "reference": "M",
+   "top1_score": 0.75,
+   "rank_of_best_reference_glyph": 34
+  },
+  {
+   "k": 43,
+   "cell": "r8c2",
+   "chosen": "E01",
+   "chosen_letter": "E",
+   "reference": "T",
+   "top1_score": 0.7,
+   "rank_of_best_reference_glyph": 5
+  },
+  {
+   "k": 46,
+   "cell": "r2c8",
+   "chosen": "M01",
+   "chosen_letter": "M",
+   "reference": "T",
+   "top1_score": 0.69,
+   "rank_of_best_reference_glyph": 9
+  },
+  {
+   "k": 47,
+   "cell": "r3c10",
+   "chosen": "S04",
+   "chosen_letter": "S",
+   "reference": "W",
+   "top1_score": 0.517,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 48,
+   "cell": "r4c12",
+   "chosen": "R02",
+   "chosen_letter": "R",
+   "reference": "A",
+   "top1_score": 0.807,
+   "rank_of_best_reference_glyph": 3
+  },
+  {
+   "k": 49,
+   "cell": "r5c14",
+   "chosen": "Y02",
+   "chosen_letter": "Y",
+   "reference": "S",
+   "top1_score": 0.624,
+   "rank_of_best_reference_glyph": 20
+  },
+  {
+   "k": 50,
+   "cell": "r6c16",
+   "chosen": "E05",
+   "chosen_letter": "E",
+   "reference": "N",
+   "top1_score": 0.752,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 51,
+   "cell": "r7c1",
+   "chosen": "V01",
+   "chosen_letter": "V",
+   "reference": "T",
+   "top1_score": 0.623,
+   "rank_of_best_reference_glyph": 4
+  },
+  {
+   "k": 54,
+   "cell": "r1c7",
+   "chosen": "D02",
+   "chosen_letter": "D",
+   "reference": "O",
+   "top1_score": 0.718,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 55,
+   "cell": "r2c9",
+   "chosen": "Y01",
+   "chosen_letter": "Y",
+   "reference": "N",
+   "top1_score": 0.781,
+   "rank_of_best_reference_glyph": 3
+  },
+  {
+   "k": 58,
+   "cell": "r5c15",
+   "chosen": "R02",
+   "chosen_letter": "R",
+   "reference": "E",
+   "top1_score": 0.723,
+   "rank_of_best_reference_glyph": 4
+  },
+  {
+   "k": 60,
+   "cell": "r7c2",
+   "chosen": "E01",
+   "chosen_letter": "E",
+   "reference": "V",
+   "top1_score": 0.718,
+   "rank_of_best_reference_glyph": 15
+  },
+  {
+   "k": 61,
+   "cell": "r8c4",
+   "chosen": "T05",
+   "chosen_letter": "T",
+   "reference": "S",
+   "top1_score": 0.628,
+   "rank_of_best_reference_glyph": 28
+  },
+  {
+   "k": 65,
+   "cell": "r3c12",
+   "chosen": "H01",
+   "chosen_letter": "H",
+   "reference": "W",
+   "top1_score": 0.649,
+   "rank_of_best_reference_glyph": 4
+  },
+  {
+   "k": 68,
+   "cell": "r6c1",
+   "chosen": "T03",
+   "chosen_letter": "T",
+   "reference": "C",
+   "top1_score": 0.629,
+   "rank_of_best_reference_glyph": 6
+  },
+  {
+   "k": 71,
+   "cell": "r9c7",
+   "chosen": "T06",
+   "chosen_letter": "T",
+   "reference": "R",
+   "top1_score": 0.627,
+   "rank_of_best_reference_glyph": 4
+  },
+  {
+   "k": 78,
+   "cell": "r7c4",
+   "chosen": "O04",
+   "chosen_letter": "O",
+   "reference": "A",
+   "top1_score": 0.633,
+   "rank_of_best_reference_glyph": 25
+  },
+  {
+   "k": 79,
+   "cell": "r8c6",
+   "chosen": "T06",
+   "chosen_letter": "T",
+   "reference": "P",
+   "top1_score": 0.642,
+   "rank_of_best_reference_glyph": 12
+  },
+  {
+   "k": 84,
+   "cell": "r4c16",
+   "chosen": "I01",
+   "chosen_letter": "I",
+   "reference": "A",
+   "top1_score": 0.665,
+   "rank_of_best_reference_glyph": 3
+  },
+  {
+   "k": 85,
+   "cell": "r5c1",
+   "chosen": "T04",
+   "chosen_letter": "T",
+   "reference": "B",
+   "top1_score": 0.804,
+   "rank_of_best_reference_glyph": 6
+  },
+  {
+   "k": 88,
+   "cell": "r8c7",
+   "chosen": "O03",
+   "chosen_letter": "O",
+   "reference": "T",
+   "top1_score": 0.514,
+   "rank_of_best_reference_glyph": 8
+  },
+  {
+   "k": 95,
+   "cell": "r6c4",
+   "chosen": "D02",
+   "chosen_letter": "D",
+   "reference": "O",
+   "top1_score": 0.65,
+   "rank_of_best_reference_glyph": 3
+  },
+  {
+   "k": 97,
+   "cell": "r8c8",
+   "chosen": "R02",
+   "chosen_letter": "R",
+   "reference": "A",
+   "top1_score": 0.787,
+   "rank_of_best_reference_glyph": 6
+  },
+  {
+   "k": 101,
+   "cell": "r3c16",
+   "chosen": "E02",
+   "chosen_letter": "E",
+   "reference": "I",
+   "top1_score": 0.632,
+   "rank_of_best_reference_glyph": 7
+  },
+  {
+   "k": 109,
+   "cell": "r2c15",
+   "chosen": "I01",
+   "chosen_letter": "I",
+   "reference": "A",
+   "top1_score": 0.669,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 110,
+   "cell": "r3c17",
+   "chosen": "T05",
+   "chosen_letter": "T",
+   "reference": "S",
+   "top1_score": 0.684,
+   "rank_of_best_reference_glyph": 19
+  },
+  {
+   "k": 114,
+   "cell": "r7c8",
+   "chosen": "R02",
+   "chosen_letter": "R",
+   "reference": "M",
+   "top1_score": 0.77,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 115,
+   "cell": "r8c10",
+   "chosen": "T04",
+   "chosen_letter": "T",
+   "reference": "B",
+   "top1_score": 0.83,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 119,
+   "cell": "r3c1",
+   "chosen": "N02",
+   "chosen_letter": "N",
+   "reference": "E",
+   "top1_score": 0.748,
+   "rank_of_best_reference_glyph": 3
+  },
+  {
+   "k": 122,
+   "cell": "r6c7",
+   "chosen": "R02",
+   "chosen_letter": "R",
+   "reference": "A",
+   "top1_score": 0.787,
+   "rank_of_best_reference_glyph": 5
+  },
+  {
+   "k": 123,
+   "cell": "r7c9",
+   "chosen": "W01",
+   "chosen_letter": "W",
+   "reference": "S",
+   "top1_score": 0.705,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 127,
+   "cell": "r2c17",
+   "chosen": "T02",
+   "chosen_letter": "T",
+   "reference": "W",
+   "top1_score": 0.633,
+   "rank_of_best_reference_glyph": 8
+  },
+  {
+   "k": 130,
+   "cell": "r5c6",
+   "chosen": "P01",
+   "chosen_letter": "P",
+   "reference": "L",
+   "top1_score": 0.799,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 135,
+   "cell": "r1c16",
+   "chosen": "N04",
+   "chosen_letter": "N",
+   "reference": "M",
+   "top1_score": 0.704,
+   "rank_of_best_reference_glyph": 3
+  },
+  {
+   "k": 137,
+   "cell": "r3c3",
+   "chosen": "V01",
+   "chosen_letter": "V",
+   "reference": "T",
+   "top1_score": 0.629,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 138,
+   "cell": "r4c5",
+   "chosen": "D02",
+   "chosen_letter": "D",
+   "reference": "O",
+   "top1_score": 0.631,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 139,
+   "cell": "r5c7",
+   "chosen": "T06",
+   "chosen_letter": "T",
+   "reference": "P",
+   "top1_score": 0.62,
+   "rank_of_best_reference_glyph": 7
+  },
+  {
+   "k": 140,
+   "cell": "r6c9",
+   "chosen": "R02",
+   "chosen_letter": "R",
+   "reference": "A",
+   "top1_score": 0.791,
+   "rank_of_best_reference_glyph": 5
+  },
+  {
+   "k": 142,
+   "cell": "r8c13",
+   "chosen": "W02",
+   "chosen_letter": "W",
+   "reference": "A",
+   "top1_score": 0.669,
+   "rank_of_best_reference_glyph": 3
+  },
+  {
+   "k": 143,
+   "cell": "r9c15",
+   "chosen": "R02",
+   "chosen_letter": "R",
+   "reference": "D",
+   "top1_score": 0.785,
+   "rank_of_best_reference_glyph": 5
+  },
+  {
+   "k": 144,
+   "cell": "r1c17",
+   "chosen": "Y01",
+   "chosen_letter": "Y",
+   "reference": "L",
+   "top1_score": 0.807,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 148,
+   "cell": "r5c8",
+   "chosen": "Y01",
+   "chosen_letter": "Y",
+   "reference": "L",
+   "top1_score": 0.852,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 149,
+   "cell": "r6c10",
+   "chosen": "Y01",
+   "chosen_letter": "Y",
+   "reference": "L",
+   "top1_score": 0.818,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 152,
+   "cell": "r9c16",
+   "chosen": "R02",
+   "chosen_letter": "R",
+   "reference": "E",
+   "top1_score": 0.732,
+   "rank_of_best_reference_glyph": 4
+  },
+  {
+   "k": 157,
+   "cell": "r14c9",
+   "chosen": "Y01",
+   "chosen_letter": "Y",
+   "reference": "E",
+   "top1_score": 0.824,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 158,
+   "cell": "r15c10",
+   "chosen": "T01",
+   "chosen_letter": "T",
+   "reference": "R",
+   "top1_score": 0.702,
+   "rank_of_best_reference_glyph": 3
+  },
+  {
+   "k": 162,
+   "cell": "r10c2",
+   "chosen": "H01",
+   "chosen_letter": "H",
+   "reference": "A",
+   "top1_score": 0.697,
+   "rank_of_best_reference_glyph": 5
+  },
+  {
+   "k": 164,
+   "cell": "r12c6",
+   "chosen": "T06",
+   "chosen_letter": "T",
+   "reference": "S",
+   "top1_score": 0.693,
+   "rank_of_best_reference_glyph": 13
+  },
+  {
+   "k": 169,
+   "cell": "r17c16",
+   "chosen": "S04",
+   "chosen_letter": "S",
+   "reference": "W",
+   "top1_score": 0.624,
+   "rank_of_best_reference_glyph": 8
+  },
+  {
+   "k": 180,
+   "cell": "r10c4",
+   "chosen": "W01",
+   "chosen_letter": "W",
+   "reference": "S",
+   "top1_score": 0.704,
+   "rank_of_best_reference_glyph": 3
+  },
+  {
+   "k": 181,
+   "cell": "r11c6",
+   "chosen": "P01",
+   "chosen_letter": "P",
+   "reference": "L",
+   "top1_score": 0.736,
+   "rank_of_best_reference_glyph": 3
+  },
+  {
+   "k": 182,
+   "cell": "r12c8",
+   "chosen": "T04",
+   "chosen_letter": "T",
+   "reference": "A",
+   "top1_score": 0.745,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 186,
+   "cell": "r16c16",
+   "chosen": "R02",
+   "chosen_letter": "R",
+   "reference": "T",
+   "top1_score": 0.693,
+   "rank_of_best_reference_glyph": 7
+  },
+  {
+   "k": 188,
+   "cell": "r18c3",
+   "chosen": "T02",
+   "chosen_letter": "T",
+   "reference": "W",
+   "top1_score": 0.618,
+   "rank_of_best_reference_glyph": 8
+  },
+  {
+   "k": 194,
+   "cell": "r15c14",
+   "chosen": "T06",
+   "chosen_letter": "T",
+   "reference": "R",
+   "top1_score": 0.612,
+   "rank_of_best_reference_glyph": 6
+  },
+  {
+   "k": 195,
+   "cell": "r16c17",
+   "chosen": "R02",
+   "chosen_letter": "R",
+   "reference": "M",
+   "top1_score": 0.724,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 200,
+   "cell": "r12c10",
+   "chosen": "T06",
+   "chosen_letter": "T",
+   "reference": "R",
+   "top1_score": 0.689,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 201,
+   "cell": "r13c12",
+   "chosen": "N02",
+   "chosen_letter": "N",
+   "reference": "E",
+   "top1_score": 0.768,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 202,
+   "cell": "r14c14",
+   "chosen": "Y01",
+   "chosen_letter": "Y",
+   "reference": "E",
+   "top1_score": 0.725,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 207,
+   "cell": "r10c7",
+   "chosen": "D02",
+   "chosen_letter": "D",
+   "reference": "O",
+   "top1_score": 0.596,
+   "rank_of_best_reference_glyph": 3
+  },
+  {
+   "k": 208,
+   "cell": "r11c9",
+   "chosen": "E05",
+   "chosen_letter": "E",
+   "reference": "N",
+   "top1_score": 0.791,
+   "rank_of_best_reference_glyph": 3
+  },
+  {
+   "k": 209,
+   "cell": "r12c11",
+   "chosen": "Y01",
+   "chosen_letter": "Y",
+   "reference": "E",
+   "top1_score": 0.755,
+   "rank_of_best_reference_glyph": 3
+  },
+  {
+   "k": 215,
+   "cell": "r18c6",
+   "chosen": "H01",
+   "chosen_letter": "H",
+   "reference": "A",
+   "top1_score": 0.736,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 216,
+   "cell": "r10c8",
+   "chosen": "T05",
+   "chosen_letter": "T",
+   "reference": "S",
+   "top1_score": 0.659,
+   "rank_of_best_reference_glyph": 16
+  },
+  {
+   "k": 224,
+   "cell": "r18c7",
+   "chosen": "S04",
+   "chosen_letter": "S",
+   "reference": "W",
+   "top1_score": 0.484,
+   "rank_of_best_reference_glyph": 3
+  },
+  {
+   "k": 225,
+   "cell": "r10c9",
+   "chosen": "T03",
+   "chosen_letter": "T",
+   "reference": "H",
+   "top1_score": 0.751,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 227,
+   "cell": "r12c13",
+   "chosen": "V01",
+   "chosen_letter": "V",
+   "reference": "N",
+   "top1_score": 0.85,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 234,
+   "cell": "r10c10",
+   "chosen": "R02",
+   "chosen_letter": "R",
+   "reference": "A",
+   "top1_score": 0.754,
+   "rank_of_best_reference_glyph": 5
+  },
+  {
+   "k": 239,
+   "cell": "r15c3",
+   "chosen": "N03",
+   "chosen_letter": "N",
+   "reference": "R",
+   "top1_score": 0.706,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 240,
+   "cell": "r16c5",
+   "chosen": "H01",
+   "chosen_letter": "H",
+   "reference": "A",
+   "top1_score": 0.718,
+   "rank_of_best_reference_glyph": 4
+  },
+  {
+   "k": 241,
+   "cell": "r17c7",
+   "chosen": "Y01",
+   "chosen_letter": "Y",
+   "reference": "D",
+   "top1_score": 0.732,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 252,
+   "cell": "r11c14",
+   "chosen": "T06",
+   "chosen_letter": "T",
+   "reference": "R",
+   "top1_score": 0.723,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 254,
+   "cell": "r13c1",
+   "chosen": "W02",
+   "chosen_letter": "W",
+   "reference": "A",
+   "top1_score": 0.749,
+   "rank_of_best_reference_glyph": 6
+  },
+  {
+   "k": 257,
+   "cell": "r16c7",
+   "chosen": "E02",
+   "chosen_letter": "E",
+   "reference": "A",
+   "top1_score": 0.628,
+   "rank_of_best_reference_glyph": 6
+  },
+  {
+   "k": 258,
+   "cell": "r17c9",
+   "chosen": "S03",
+   "chosen_letter": "S",
+   "reference": "I",
+   "top1_score": 0.603,
+   "rank_of_best_reference_glyph": 5
+  },
+  {
+   "k": 268,
+   "cell": "r11c16",
+   "chosen": "I01",
+   "chosen_letter": "I",
+   "reference": "A",
+   "top1_score": 0.617,
+   "rank_of_best_reference_glyph": 11
+  },
+  {
+   "k": 269,
+   "cell": "r12c1",
+   "chosen": "R02",
+   "chosen_letter": "R",
+   "reference": "M",
+   "top1_score": 0.85,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 270,
+   "cell": "r13c3",
+   "chosen": "L02",
+   "chosen_letter": "L",
+   "reference": "N",
+   "top1_score": 0.76,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 273,
+   "cell": "r16c9",
+   "chosen": "T04",
+   "chosen_letter": "T",
+   "reference": "A",
+   "top1_score": 0.762,
+   "rank_of_best_reference_glyph": 3
+  },
+  {
+   "k": 276,
+   "cell": "r11c17",
+   "chosen": "R02",
+   "chosen_letter": "R",
+   "reference": "A",
+   "top1_score": 0.798,
+   "rank_of_best_reference_glyph": 7
+  },
+  {
+   "k": 280,
+   "cell": "r15c7",
+   "chosen": "Y01",
+   "chosen_letter": "Y",
+   "reference": "E",
+   "top1_score": 0.794,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 284,
+   "cell": "r11c1",
+   "chosen": "V01",
+   "chosen_letter": "V",
+   "reference": "S",
+   "top1_score": 0.583,
+   "rank_of_best_reference_glyph": 9
+  },
+  {
+   "k": 288,
+   "cell": "r15c8",
+   "chosen": "L02",
+   "chosen_letter": "L",
+   "reference": "N",
+   "top1_score": 0.659,
+   "rank_of_best_reference_glyph": 3
+  },
+  {
+   "k": 289,
+   "cell": "r16c11",
+   "chosen": "D02",
+   "chosen_letter": "D",
+   "reference": "O",
+   "top1_score": 0.603,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 294,
+   "cell": "r13c6",
+   "chosen": "V01",
+   "chosen_letter": "V",
+   "reference": "T",
+   "top1_score": 0.733,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 295,
+   "cell": "r14c8",
+   "chosen": "R02",
+   "chosen_letter": "R",
+   "reference": "M",
+   "top1_score": 0.834,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 298,
+   "cell": "r17c14",
+   "chosen": "T01",
+   "chosen_letter": "T",
+   "reference": "E",
+   "top1_score": 0.716,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 299,
+   "cell": "r18c16",
+   "chosen": "V01",
+   "chosen_letter": "V",
+   "reference": "W",
+   "top1_score": 0.532,
+   "rank_of_best_reference_glyph": 9
+  },
+  {
+   "k": 303,
+   "cell": "r10c15",
+   "chosen": "D03",
+   "chosen_letter": "D",
+   "reference": "E",
+   "top1_score": 0.724,
+   "rank_of_best_reference_glyph": 7
+  },
+  {
+   "k": 304,
+   "cell": "r10c16",
+   "chosen": "I05",
+   "chosen_letter": "I",
+   "reference": "W",
+   "top1_score": 0.76,
+   "rank_of_best_reference_glyph": 24
+  },
+  {
+   "k": 305,
+   "cell": "r10c17",
+   "chosen": "S04",
+   "chosen_letter": "S",
+   "reference": "I",
+   "top1_score": 0.861,
+   "rank_of_best_reference_glyph": 5
+  },
+  {
+   "k": 306,
+   "cell": "r19c4",
+   "chosen": "Y01",
+   "chosen_letter": "Y",
+   "reference": "L",
+   "top1_score": 0.779,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 307,
+   "cell": "r19c3",
+   "chosen": "I03",
+   "chosen_letter": "I",
+   "reference": "L",
+   "top1_score": 0.747,
+   "rank_of_best_reference_glyph": 26
+  },
+  {
+   "k": 308,
+   "cell": "r19c2",
+   "chosen": "F01",
+   "chosen_letter": "F",
+   "reference": "B",
+   "top1_score": 0.799,
+   "rank_of_best_reference_glyph": 34
+  },
+  {
+   "k": 310,
+   "cell": "r19c5",
+   "chosen": "W01",
+   "chosen_letter": "W",
+   "reference": "A",
+   "top1_score": 0.547,
+   "rank_of_best_reference_glyph": 13
+  },
+  {
+   "k": 311,
+   "cell": "r19c6",
+   "chosen": "I04",
+   "chosen_letter": "I",
+   "reference": "N",
+   "top1_score": 0.704,
+   "rank_of_best_reference_glyph": 7
+  },
+  {
+   "k": 312,
+   "cell": "r19c7",
+   "chosen": "L02",
+   "chosen_letter": "L",
+   "reference": "E",
+   "top1_score": 0.681,
+   "rank_of_best_reference_glyph": 13
+  },
+  {
+   "k": 313,
+   "cell": "r19c8",
+   "chosen": "P01",
+   "chosen_letter": "P",
+   "reference": "A",
+   "top1_score": 0.762,
+   "rank_of_best_reference_glyph": 10
+  },
+  {
+   "k": 314,
+   "cell": "r19c10",
+   "chosen": "A03",
+   "chosen_letter": "A",
+   "reference": "S",
+   "top1_score": 0.763,
+   "rank_of_best_reference_glyph": 10
+  },
+  {
+   "k": 315,
+   "cell": "r19c9",
+   "chosen": "O01",
+   "chosen_letter": "O",
+   "reference": "Y",
+   "top1_score": 0.739,
+   "rank_of_best_reference_glyph": 9
+  },
+  {
+   "k": 316,
+   "cell": "r19c12",
+   "chosen": "M01",
+   "chosen_letter": "M",
+   "reference": "O",
+   "top1_score": 0.804,
+   "rank_of_best_reference_glyph": 22
+  },
+  {
+   "k": 319,
+   "cell": "r19c14",
+   "chosen": "U02",
+   "chosen_letter": "U",
+   "reference": "I",
+   "top1_score": 0.743,
+   "rank_of_best_reference_glyph": 31
+  },
+  {
+   "k": 320,
+   "cell": "r19c15",
+   "chosen": "S04",
+   "chosen_letter": "S",
+   "reference": "N",
+   "top1_score": 0.757,
+   "rank_of_best_reference_glyph": 5
+  },
+  {
+   "k": 321,
+   "cell": "r19c16",
+   "chosen": "Y02",
+   "chosen_letter": "Y",
+   "reference": "P",
+   "top1_score": 0.775,
+   "rank_of_best_reference_glyph": 31
+  },
+  {
+   "k": 322,
+   "cell": "r20c2",
+   "chosen": "O04",
+   "chosen_letter": "O",
+   "reference": "A",
+   "top1_score": 0.798,
+   "rank_of_best_reference_glyph": 4
+  },
+  {
+   "k": 323,
+   "cell": "r20c1",
+   "chosen": "N01",
+   "chosen_letter": "N",
+   "reference": "R",
+   "top1_score": 0.628,
+   "rank_of_best_reference_glyph": 6
+  },
+  {
+   "k": 324,
+   "cell": "r19c17",
+   "chosen": "T04",
+   "chosen_letter": "T",
+   "reference": "A",
+   "top1_score": 0.722,
+   "rank_of_best_reference_glyph": 4
+  },
+  {
+   "k": 325,
+   "cell": "r20c4",
+   "chosen": "O04",
+   "chosen_letter": "O",
+   "reference": "D",
+   "top1_score": 0.609,
+   "rank_of_best_reference_glyph": 15
+  },
+  {
+   "k": 326,
+   "cell": "r20c3",
+   "chosen": "N02",
+   "chosen_letter": "N",
+   "reference": "I",
+   "top1_score": 0.799,
+   "rank_of_best_reference_glyph": 19
+  },
+  {
+   "k": 327,
+   "cell": "r20c12",
+   "chosen": "P01",
+   "chosen_letter": "P",
+   "reference": "C",
+   "top1_score": 0.646,
+   "rank_of_best_reference_glyph": 25
+  },
+  {
+   "k": 328,
+   "cell": "r20c11",
+   "chosen": "Y01",
+   "chosen_letter": "Y",
+   "reference": "E",
+   "top1_score": 0.811,
+   "rank_of_best_reference_glyph": 2
+  },
+  {
+   "k": 329,
+   "cell": "r20c10",
+   "chosen": "P01",
+   "chosen_letter": "P",
+   "reference": "L",
+   "top1_score": 0.577,
+   "rank_of_best_reference_glyph": 14
+  },
+  {
+   "k": 330,
+   "cell": "r20c9",
+   "chosen": "H01",
+   "chosen_letter": "H",
+   "reference": "I",
+   "top1_score": 0.759,
+   "rank_of_best_reference_glyph": 17
+  },
+  {
+   "k": 331,
+   "cell": "r20c8",
+   "chosen": "D01",
+   "chosen_letter": "D",
+   "reference": "F",
+   "top1_score": 0.812,
+   "rank_of_best_reference_glyph": 35
+  },
+  {
+   "k": 332,
+   "cell": "r20c7",
+   "chosen": "I03",
+   "chosen_letter": "I",
+   "reference": "E",
+   "top1_score": 0.701,
+   "rank_of_best_reference_glyph": 3
+  },
+  {
+   "k": 333,
+   "cell": "r20c6",
+   "chosen": "C01",
+   "chosen_letter": "C",
+   "reference": "I",
+   "top1_score": 0.839,
+   "rank_of_best_reference_glyph": 5
+  },
+  {
+   "k": 334,
+   "cell": "r20c5",
+   "chosen": "E02",
+   "chosen_letter": "E",
+   "reference": "S",
+   "top1_score": 0.81,
+   "rank_of_best_reference_glyph": 4
+  },
+  {
+   "k": 337,
+   "cell": "r20c15",
+   "chosen": "I01",
+   "chosen_letter": "I",
+   "reference": "A",
+   "top1_score": 0.625,
+   "rank_of_best_reference_glyph": 7
+  }
+ ],
+ "unused": [
+  "B02",
+  "P02",
+  "R04",
+  "S02"
+ ]
+}

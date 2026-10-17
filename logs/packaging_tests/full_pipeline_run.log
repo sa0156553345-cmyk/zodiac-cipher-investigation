@@ -1,0 +1,42 @@
+total: 62
+counts: {'A': 5, 'B': 2, 'C': 1, 'D': 3, 'E': 6, 'F': 1, 'G': 1, 'H': 1, 'I': 5, 'L': 3, 'M': 1, 'N': 5, 'O': 4, 'P': 2, 'R': 5, 'S': 4, 'T': 6, 'U': 3, 'V': 1, 'W': 1, 'Y': 2}
+mismatch: {'W': (1, 2)}
+split W 5 width 112 at 49
+total glyphs: 63
+per letter: {'A': 5, 'B': 2, 'C': 1, 'D': 3, 'E': 6, 'F': 1, 'G': 1, 'H': 1, 'I': 5, 'L': 3, 'M': 1, 'N': 5, 'O': 4, 'P': 2, 'R': 5, 'S': 4, 'T': 6, 'U': 3, 'V': 1, 'W': 2, 'Y': 2}
+atlas (1056, 672)
+row centre spacing (median): 62.9  min/max diff: 60.9 67.3
+col centre spacing (median): 63.8  min/max diff: 61.9 66.0
+cells with ink<30 (possibly empty): 6  min/median ink: 7 323
+cells NA: 0  distinct key IDs used: 57 / 63
+unused: ['B02', 'L01', 'P02', 'R04', 'S02', 'U03']
+dice median/min: 0.755 0.476  margin<0.03 cells: 116
+anchor cell row1 col1: matched O04  expected I01  -> MISMATCH
+anchor cell row2 col3: matched H01  expected H01  -> OK
+anchor cell row3 col5: matched O04  expected O04  -> OK
+numbers per row: [17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17]  total: 340
+parsed: 340 of 340  unique: 337  missing: [13, 41, 91, 97, 118, 119, 123, 141, 171, 193, 198]  dup: [1, 4, 7]
+permutation check -> missing: []  duplicates/out-of-range: []
+row-major y monotone across rows: False
+first row values now: [0, 9, 18, 27, 36, 45, 54, 63, 72, 81, 90, 99, 108, 117, 126, 135, 144]
+permutation ok: True
+cells: 340  agree with the decimation formula: 247
+disagreements (row,col,figure_value,formula_value): [(10, 12, 300, 252), (10, 13, 301, 261), (10, 14, 302, 270), (10, 15, 303, 279), (10, 16, 304, 288), (10, 17, 305, 297), (11, 1, 284, 289), (11, 2, 292, 298), (11, 14, 252, 253), (11, 15, 260, 262), (11, 16, 268, 271), (11, 17, 276, 280), (12, 1, 269, 272), (12, 2, 277, 281), (12, 3, 285, 290), (12, 4, 293, 299), (12, 16, 253, 254), (12, 17, 261, 263), (13, 1, 254, 255), (13, 2, 262, 264), (13, 3, 270, 273), (13, 4, 278, 282), (13, 5, 286, 291), (13, 6, 294, 300), (14, 3, 255, 256), (14, 4, 263, 265), (14, 5, 271, 274), (14, 6, 279, 283), (14, 7, 287, 292), (14, 8, 295, 301)]
+count of disagreements: 93
+row-1 figure values: [0, 9, 18, 27, 36, 45, 54, 63, 72, 81, 90, 99, 108, 117, 126, 135, 144]
+row-2 figure values: [136, 145, 1, 10, 19, 28, 37, 46, 55, 64, 73, 82, 91, 100, 109, 118, 127]
+raw known text (letters): 260 IHOPEYOUAREHAVINGLOTSOFFANINTRYINGTOCATCHMETHATWASNTMEONTHETVSHOWWHICH
+decrypted letters     : 340 AREAAEEOGNRCTCEAAOOAINDIHMEHTDW?DYDRAEWNBAECHLAN?OVLOGPYAIUAFPRAEPATAN
+similarity ratio: 0.02
+'?' (unidentified cells) in stream: 3
+matched letters (aligned): 6 of raw 260
+reference letters: 340  (block1 260 + block2 80 )
+decrypted symbols: 340
+first 40 decrypted: OHOPEYOTARTHUVTNGYOTSOFVALENVTYFIGTOCRNC
+first 40 reference: IHOPEYOUAREHAVINGLOTSOFFANINTRYINGTOCATC
+position-wise agreement: 0.609   SequenceMatcher ratio: 0.018
+first mismatch at symbol index: 0  decrypted: O  reference: I
+symbols at low-margin cells (<0.03): 116
+feature build + scoring:
+M0-M3 done 38.8 s
+ rot -6 64.7 s

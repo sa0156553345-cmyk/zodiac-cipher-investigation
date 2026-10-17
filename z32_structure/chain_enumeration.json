@@ -1,0 +1,36 @@
+{
+ "chain": [
+  {
+   "rule": "R1 Foxon: hour=floor(d/30), minute=round(d/6)",
+   "H": 0,
+   "M": 3,
+   "r": 12,
+   "theta_rad_if_M": 3,
+   "theta_deg_mod_2pi": 171.9
+  },
+  {
+   "rule": "R2 minute=floor(d/6)",
+   "H": 0,
+   "M": 2,
+   "r": 12,
+   "theta_rad_if_M": 2,
+   "theta_deg_mod_2pi": 114.6
+  },
+  {
+   "rule": "R3 hour=round(d/30)",
+   "H": 1,
+   "M": 3,
+   "r": 1,
+   "theta_rad_if_M": 3,
+   "theta_deg_mod_2pi": 171.9
+  },
+  {
+   "rule": "R4 hour-hand angle = d (minute from 30H+M/2)",
+   "H": 0,
+   "M": 34,
+   "r": 12,
+   "theta_rad_if_M": 34,
+   "theta_deg_mod_2pi": 148.1
+  }
+ ]
+}

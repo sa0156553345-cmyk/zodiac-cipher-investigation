@@ -1,0 +1,112 @@
+{
+ "0": {
+  "verdict": {
+   "label": "4",
+   "confidence": "high",
+   "note": "thin H in photo; candidate is bold H"
+  },
+  "visual_id": "I01",
+  "matcher_id": "O04",
+  "reference": "I",
+  "matcher_letter": "O"
+ },
+ "7": {
+  "verdict": {
+   "label": "3",
+   "confidence": "high",
+   "note": "square outline with central dot; candidate has the same dot"
+  },
+  "visual_id": "U03",
+  "matcher_id": "T04",
+  "reference": "U",
+  "matcher_letter": "T"
+ },
+ "10": {
+  "verdict": {
+   "label": "5",
+   "confidence": "medium-high",
+   "note": "B-shaped glyph with straight left side; alternative candidate with notch judged less similar"
+  },
+  "visual_id": "E03",
+  "matcher_id": "T03",
+  "reference": "E",
+  "matcher_letter": "T"
+ },
+ "12": {
+  "verdict": {
+   "label": null,
+   "confidence": "unresolved",
+   "note": "photo is a square with diagonal triangle; no such glyph among top-5"
+  },
+  "visual_id": null,
+  "matcher_id": "U02",
+  "reference": "A",
+  "matcher_letter": "U"
+ },
+ "14": {
+  "verdict": {
+   "label": null,
+   "confidence": "unresolved",
+   "note": "blurred stacked-stroke mark; no candidate matches"
+  },
+  "visual_id": null,
+  "matcher_id": "T03",
+  "reference": "I",
+  "matcher_letter": "T"
+ },
+ "17": {
+  "verdict": {
+   "label": "1",
+   "confidence": "medium-high",
+   "note": "hollow D-shape with flat left side"
+  },
+  "visual_id": "L01",
+  "matcher_id": "Y01",
+  "reference": "L",
+  "matcher_letter": "Y"
+ },
+ "23": {
+  "verdict": {
+   "label": "1",
+   "confidence": "high",
+   "note": "letter-like F shape"
+  },
+  "visual_id": "F01",
+  "matcher_id": "V01",
+  "reference": "F",
+  "matcher_letter": "V"
+ },
+ "25": {
+  "verdict": {
+   "label": "2",
+   "confidence": "medium-high",
+   "note": "hollow triangle outline without dot"
+  },
+  "visual_id": "N05",
+  "matcher_id": "L02",
+  "reference": "N",
+  "matcher_letter": "L"
+ },
+ "26": {
+  "verdict": {
+   "label": null,
+   "confidence": "unresolved",
+   "note": "photo shows a '<' shape; no '<' candidate in top-5"
+  },
+  "visual_id": null,
+  "matcher_id": "E01",
+  "reference": "I",
+  "matcher_letter": "E"
+ },
+ "28": {
+  "verdict": {
+   "label": "1",
+   "confidence": "low",
+   "note": "filled rounded square; two filled-square glyphs may match (ambiguous)"
+  },
+  "visual_id": "T03",
+  "matcher_id": "V01",
+  "reference": "T",
+  "matcher_letter": "V"
+ }
+}

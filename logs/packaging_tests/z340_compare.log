@@ -1,0 +1,7 @@
+reference letters: 340  (block1 260 + block2 80 )
+decrypted symbols: 340
+first 40 decrypted: OHOPEYOTARTHUVTNGYOTSOFVALENVTYFIGTOCRNC
+first 40 reference: IHOPEYOUAREHAVINGLOTSOFFANINTRYINGTOCATC
+position-wise agreement: 0.609   SequenceMatcher ratio: 0.018
+first mismatch at symbol index: 0  decrypted: O  reference: I
+symbols at low-margin cells (<0.03): 116

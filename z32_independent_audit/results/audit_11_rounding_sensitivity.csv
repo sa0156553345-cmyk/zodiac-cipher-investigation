@@ -1,0 +1,5 @@
+model,site_theta3_lat,site_theta3_lon,site_theta2_lat,site_theta2_lon,distance_between_theta3_and_theta2_mi,dist_theta3_to_road_point_mi,dist_theta2_to_road_point_mi
+A_five_free_offset,37.92961,-122.15045,38.09401,-122.02082,13.373,2.821,15.409
+B_four_without_Oakland_free_offset,37.91975,-122.12037,38.07424,-121.99918,12.549,2.205,14.733
+C_five_crosshair_at_Diablo,37.90253,-122.15078,38.05124,-122.01944,12.52,1.159,12.805
+D_four_without_Oakland_crosshair_at_Diablo,37.89394,-122.13628,38.03695,-122.02074,11.715,0.247,11.921

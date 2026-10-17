@@ -1,0 +1,103 @@
+== environment ==
+run at (UTC): 2026-10-11T17:40:58Z
+Python 3.12.3
+numpy 2.4.4 | Pillow 12.1.1
+== 0. re-extract figures from input/2023-982.pdf and compare pixels with bundled PNGs ==
+images/fig1_all_panels_p8_native.png: pixel-identical = True  (size (987, 498))
+images/fig2_map_p9_native.png: pixel-identical = True  (size (916, 894))
+== 0b. grid overlay for reading label positions (scripts/make_grid_overlay.py) ==
+written images/fig2_grid_overlay_for_reading.png
+== 1. bitmap identity check (scripts/fig_glyph_check.py) ==
+identity classes in Fig.1(A): 29
+repeated classes (1-indexed): [[1, 26], [2, 32], [6, 14]]
+classes agree with transcription labels: True
+max mismatch Fig.1(B) vs Fig.1(A): 0.0
+worst mismatch of a Fig.1(C) glyph: 0.0
+Fig.1(C) reading by bitmap: CX2VAC7PGID4H6?TJF3!5LR118O9MEOW
+written results/fig_glyph_check.csv
+== 2. transposition family, 204 configurations (scripts/transposition_family.py) ==
+configurations: 204   valid readings: 34
+valid by (wrap, emode): {('W1', 'E1'): 0, ('W1', 'E2'): 34, ('W2', 'E1'): 0, ('W2', 'E2'): 0, ('W3', 'E1'): 0, ('W3', 'E2'): 0}
+configurations matching Fig.1(C) 32/32: ['k2_d2_W1_E2']
+written: transposition_all_configs.csv, valid_orders.json, transposition_assumption_effects.csv
+== 3. literal phrase test, no edits (scripts/literal_phrase_test.py) ==
+orders in which the phrase appears with all 3 repeat constraints satisfied (of 34):
+  T1_target_literal              0
+  T2_alternative_literal         0
+  T3_proposed_literal            0
+  T4_foxon_text_with_2_edits     1
+paper order (k=2, delta=+2, W1, E2): T1 satisfies 1/3 pairs; per pair: [False, True, False]
+written results/literal_phrase_test.csv
+== 4. pre-registered alternative family + permutation null (scripts/alternatives_family.py) ==
+family size N (distinct 32-letter phrases): 3544
+orders M = 34; observed passes O = 47 (phrase, order) pairs
+null total: mean = 45.266, sd = 6.814, max = 66
+global p (family-wide excess) = 0.4170  (R = 2000; resolution 1/2000)
+phrases passing in >= 1 order: 47 of 3544
+best observed: EIGHTRADIANSALONGTHESEVENDEGREES passes 1 orders; per-phrase p = 0.0100; Bonferroni p = 1.000
+written alternatives_summary.csv and alternatives_candidates.csv
+== 5. map audit with sourced landmarks (scripts/map_audit.py) ==
+crosshair centre (px) = (490,454); pixels per figure unit = 25.59; ring scores {4: 0.955, 8: 0.976, 12: 0.881}
+
+A_five_cities_free_offset
+  px/mile=22.021  rotation=-4.802 deg  offset=(-25.7,-53.0) px
+  residuals px=[127.9, 53.8, 76.3, 43.5, 45.9]
+  miles/unit point=1.162  MC 2.5/50/97.5 = [1.101, 1.17, 1.239]
+  (12,3) predicted 37.92961,-122.15045; to Hwy24 2.821 mi; MC [1.887, 2.938, 3.982]; 95% radius 1.371 mi
+
+B_four_cities_without_Oakland_free_offset
+  px/mile=23.468  rotation=-4.933 deg  offset=(-44.7,-40.8) px
+  residuals px=[15.0, 52.5, 51.1, 30.1]
+  miles/unit point=1.0904  MC 2.5/50/97.5 = [1.025, 1.095, 1.163]
+  (12,3) predicted 37.91975,-122.12037; to Hwy24 2.205 mi; MC [1.186, 2.296, 3.407]; 95% radius 1.433 mi
+
+C_five_cities_crosshair_at_Diablo
+  px/mile=23.52  rotation=-1.815 deg  offset=(0.0,0.0) px
+  residuals px=[132.7, 76.0, 109.7, 63.9, 16.1]
+  miles/unit point=1.088  MC 2.5/50/97.5 = [1.041, 1.093, 1.145]
+  (12,3) predicted 37.90253,-122.15078; to Hwy24 1.159 mi; MC [0.668, 1.25, 1.856]; 95% radius 0.771 mi
+
+D_four_cities_without_Oakland_crosshair_at_Diablo
+  px/mile=25.14  rotation=-4.172 deg  offset=(0.0,0.0) px
+  residuals px=[46.3, 80.0, 69.2, 61.0]
+  miles/unit point=1.0179  MC 2.5/50/97.5 = [0.969, 1.023, 1.077]
+  (12,3) predicted 37.89394,-122.13629; to Hwy24 0.247 mi; MC [0.08, 0.447, 1.029]; 95% radius 0.815 mi
+
+claimed 6.4 mi/unit requires 4.00 px/mile; fitted px/mile range = 22.021-25.14
+written: map_crosshair_and_rings.csv, map_audit_models.csv, map_audit_landmarks.csv
+== 6. SHA-256 of all bundled and generated files ==
+./README.md: OK
+./data/landmarks.csv: OK
+./data/z32_fig1A_transcription.csv: OK
+./docs/CLASSIFICATION.md: OK
+./docs/PREREGISTRATION.md: OK
+./docs/SOLUTION_CRITERIA.md: OK
+./images/fig1_all_panels_p8_native.png: OK
+./images/fig2_grid_overlay_for_reading.png: OK
+./images/fig2_map_p9_native.png: OK
+./input/2023-982.pdf: OK
+./previous_results/README_PREVIOUS.md: OK
+./previous_results/z32_repro_previous/map_check.csv: OK
+./previous_results/z32_repro_previous/z32_all_configs.csv: OK
+./previous_results/z32_repro_previous/z32_phrase_tests.csv: OK
+./requirements.txt: OK
+./results/alternatives_candidates.csv: OK
+./results/alternatives_summary.csv: OK
+./results/fig_glyph_check.csv: OK
+./results/literal_phrase_test.csv: OK
+./results/map_audit_landmarks.csv: OK
+./results/map_audit_models.csv: OK
+./results/map_crosshair_and_rings.csv: OK
+./results/transposition_all_configs.csv: OK
+./results/transposition_assumption_effects.csv: OK
+./results/valid_orders.json: OK
+./run_all.sh: OK
+./scripts/alternatives_family.py: OK
+./scripts/common.py: OK
+./scripts/compare_pixels.py: OK
+./scripts/fig_glyph_check.py: OK
+./scripts/literal_phrase_test.py: OK
+./scripts/make_grid_overlay.py: OK
+./scripts/map_audit.py: OK
+./scripts/transposition_family.py: OK
+== done ==

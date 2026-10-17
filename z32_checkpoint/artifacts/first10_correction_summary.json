@@ -1,0 +1,82 @@
+{
+ "base_agreement": 0.6088235294117647,
+ "new_agreement": 0.6264705882352941,
+ "applied": [
+  {
+   "k": 0,
+   "matcher_id": "O04",
+   "visual_id": "I01",
+   "old": "O",
+   "new": "I",
+   "ref": "I",
+   "visual_matches_ref": true
+  },
+  {
+   "k": 7,
+   "matcher_id": "T04",
+   "visual_id": "U03",
+   "old": "T",
+   "new": "U",
+   "ref": "U",
+   "visual_matches_ref": true
+  },
+  {
+   "k": 10,
+   "matcher_id": "T03",
+   "visual_id": "E03",
+   "old": "T",
+   "new": "E",
+   "ref": "E",
+   "visual_matches_ref": true
+  },
+  {
+   "k": 17,
+   "matcher_id": "Y01",
+   "visual_id": "L01",
+   "old": "Y",
+   "new": "L",
+   "ref": "L",
+   "visual_matches_ref": true
+  },
+  {
+   "k": 23,
+   "matcher_id": "V01",
+   "visual_id": "F01",
+   "old": "V",
+   "new": "F",
+   "ref": "F",
+   "visual_matches_ref": true
+  },
+  {
+   "k": 25,
+   "matcher_id": "L02",
+   "visual_id": "N05",
+   "old": "L",
+   "new": "N",
+   "ref": "N",
+   "visual_matches_ref": true
+  }
+ ],
+ "not_corrected": [
+  [
+   12,
+   "U02",
+   "A"
+  ],
+  [
+   14,
+   "T03",
+   "I"
+  ],
+  [
+   26,
+   "E01",
+   "I"
+  ],
+  [
+   28,
+   "V01",
+   "T"
+  ]
+ ]
+}

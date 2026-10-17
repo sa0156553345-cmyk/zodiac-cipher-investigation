@@ -1,0 +1,7 @@
+feature build + scoring:
+M0-M3 done 54.1 s
+ rot -6 91.1 s
+ rot -4 127.6 s
+ rot -2 163.3 s
+ rot 0 199.8 s
+ rot 2 236.3 s

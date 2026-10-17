@@ -1,0 +1,7 @@
+sanity A: recomputed (37.92961,-122.15045) vs archive [37.92961, -122.15045]  gap = 0.17 m
+sanity B: recomputed (37.91975,-122.12037) vs archive [37.91975, -122.12037]  gap = 0.21 m
+sanity C: recomputed (37.90253,-122.15078) vs archive [37.90253, -122.15078]  gap = 0.20 m
+sanity D: recomputed (37.89394,-122.13628) vs archive [37.89394, -122.13629]  gap = 0.53 m
+sanity check passed: models A-D reproduced within 1 m
+
+rows written: 208 -> /home/claude/work/archive_test/zodiac-cipher-investigation/z32_phase5_audit/candidate_sensitivity/results/candidate_sensitivity_grid.csv

@@ -1,0 +1,6 @@
+[CAL] f_correct=1.0  power(p<0.01)=0.980  power(p<0.0025)=0.963  median p=0.001
+[CAL] f_correct=0.9  power(p<0.01)=0.923  power(p<0.0025)=0.797  median p=0.001
+[CAL] f_correct=0.8  power(p<0.01)=0.713  power(p<0.0025)=0.583  median p=0.001
+[CAL] f_correct=0.7  power(p<0.01)=0.500  power(p<0.0025)=0.330  median p=0.010
+[CAL] H0 wrong key: FPR(p<0.01)=0.0100  FPR(p<0.0025)=0.0000  median p=0.488
+[DONE] 22.6s

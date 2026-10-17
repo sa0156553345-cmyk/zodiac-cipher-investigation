@@ -1,0 +1,9 @@
+{
+ "S_lo": 4.833297293829686,
+ "S_hi": 7.485606676028848,
+ "D_min": 26.58313511606327,
+ "D_max": 33.68523004212982,
+ "band_ok_audit": false,
+ "band_ok_claim": true,
+ "min_dist_in_band": 44.75
+}

@@ -1,0 +1,216 @@
+== environment ==
+run at (UTC): 2026-10-12T10:30:26Z
+Python 3.12.3
+numpy 2.4.4 | Pillow 12.1.1
+== 0. re-extract figures from input/2023-982.pdf and compare pixels with bundled PNGs ==
+images/fig1_all_panels_p8_native.png: pixel-identical = True  (size (987, 498))
+images/fig2_map_p9_native.png: pixel-identical = True  (size (916, 894))
+== 1. original pipeline (unchanged scripts) ==
+written images/fig2_grid_overlay_for_reading.png
+identity classes in Fig.1(A): 29
+repeated classes (1-indexed): [[1, 26], [2, 32], [6, 14]]
+classes agree with transcription labels: True
+max mismatch Fig.1(B) vs Fig.1(A): 0.0
+worst mismatch of a Fig.1(C) glyph: 0.0
+Fig.1(C) reading by bitmap: CX2VAC7PGID4H6?TJF3!5LR118O9MEOW
+written results/fig_glyph_check.csv
+configurations: 204   valid readings: 34
+valid by (wrap, emode): {('W1', 'E1'): 0, ('W1', 'E2'): 34, ('W2', 'E1'): 0, ('W2', 'E2'): 0, ('W3', 'E1'): 0, ('W3', 'E2'): 0}
+configurations matching Fig.1(C) 32/32: ['k2_d2_W1_E2']
+written: transposition_all_configs.csv, valid_orders.json, transposition_assumption_effects.csv
+orders in which the phrase appears with all 3 repeat constraints satisfied (of 34):
+  T1_target_literal              0
+  T2_alternative_literal         0
+  T3_proposed_literal            0
+  T4_foxon_text_with_2_edits     1
+paper order (k=2, delta=+2, W1, E2): T1 satisfies 1/3 pairs; per pair: [False, True, False]
+written results/literal_phrase_test.csv
+family size N (distinct 32-letter phrases): 3544
+orders M = 34; observed passes O = 47 (phrase, order) pairs
+null total: mean = 45.266, sd = 6.814, max = 66
+global p (family-wide excess) = 0.4170  (R = 2000; resolution 1/2000)
+phrases passing in >= 1 order: 47 of 3544
+best observed: EIGHTRADIANSALONGTHESEVENDEGREES passes 1 orders; per-phrase p = 0.0100; Bonferroni p = 1.000
+written alternatives_summary.csv and alternatives_candidates.csv
+-- byte comparison of pipeline outputs with original_results/ --
+identical: fig_glyph_check.csv
+identical: literal_phrase_test.csv
+identical: transposition_all_configs.csv
+identical: transposition_assumption_effects.csv
+identical: valid_orders.json
+identical: alternatives_summary.csv
+identical: alternatives_candidates.csv
+identical: map_audit_models.csv
+identical: map_audit_landmarks.csv
+identical: map_crosshair_and_rings.csv
+== 2. independent audit scripts ==
+-- audit_01_repeat_recheck --
+orders checked: 34; discrepancies found: 0
+written audit_01_repeat_recheck.csv
+-- audit_02_transposition_forced_structure --
+second implementation agrees with pipeline on 204 of 204 configurations
+primary path: status=ok, moves=33, empty landings (skips)=2
+orders with E2 traversal: 34; with skips: 34
+written audit_02_* files
+-- audit_03_exact_null --
+raw 32-letter token strings per template: {'A': 1772, 'B': 1772}
+longest possible template-C phrase (letters): 30 | template C produces phrases: False
+distinct phrases: 3544 | phrases from more than one template: 0
+MC vs exact on 200 phrases (binomial z with exact p): mean z = 0.032, sd z = 1.092, max |z| = 3.254
+distinct_phrases_N: 3544
+sum_of_exact_P: 1.33223438
+exact_expected_total_34_orders: 45.2960
+exact_expected_total_2_paper_orders: 2.6645
+pipeline_MC_null_mean_34_orders: 45.266
+-- audit_04_alternatives_sensitivity --
+{'subset': 'all_34_orders (pipeline)', 'n_orders': 34, 'observed_passes_O': 47, 'exact_expected_under_null': 45.296, 'MC_null_mean': 45.266, 'MC_null_sd': 6.8143, 'MC_global_p_ge_O': 0.417, 'R': 2000}
+{'subset': 'paper_layout_k2_orders (2)', 'n_orders': 2, 'observed_passes_O': 1, 'exact_expected_under_null': 2.6645, 'MC_null_mean': 2.662, 'MC_null_sd': 1.5877, 'MC_global_p_ge_O': 0.936, 'R': 2000}
+{'subset': 'non_paper_layout_orders (32)', 'n_orders': 32, 'observed_passes_O': 46, 'exact_expected_under_null': 42.6315, 'MC_null_mean': 42.604, 'MC_null_sd': 6.6256, 'MC_global_p_ge_O': 0.33, 'R': 2000}
+written audit_04_alternatives_sensitivity.csv and audit_04_per_order.csv
+-- audit_05_statistic_power --
+O (pipeline family, 34 orders) = 47; unchanged after relabelling names: True
+{'O': 47, 'p_global': 0.42735, 'z': np.float64(0.233)}
+{'O': 48, 'p_global': 0.37135, 'z': np.float64(0.377)}
+{'O': 52, 'p_global': 0.18975, 'z': np.float64(0.953)}
+{'O': 57, 'p_global': 0.0585, 'z': np.float64(1.673)}
+{'O': 'threshold_p<0.05 = 58', 'p_global': '', 'z': ''}
+{'O': 'threshold_p<0.01 = 64', 'p_global': '', 'z': ''}
+{'O': 'null_mean = 45.379', 'p_global': 'null_sd = 6.946', 'z': 'R = 20000'}
+one true (phrase, order) pair can move O by at most 1 (and only if it was not already counted); significance at p<0.05 requires O >= 58, i.e. 11 more passes than observed.
+-- audit_06_map_pairwise_scale --
+pairs: 15
+px_per_mile_median: 23.57
+px_per_mile_min: 15.59
+px_per_mile_max: 29.728
+miles_per_unit_median: 1.0856
+miles_per_unit_IQR: 1.024 - 1.360
+miles_per_unit_min_max: 0.861 - 1.641
+bearing_diff_median_deg: 4.31
+bearing_diff_min_max_deg: -11.25 to 72.42
+corr_distance_vs_px_per_mile: -0.1
+pixels_per_figure_unit (from audit input): 25.589
+6.4_miles_per_unit_would_need_px_per_mile: 3.998
+-- audit_07_map_leave_one_out_and_noise --
+free_offset none 22.021 -4.802 1.162 2.821
+free_offset Oakland 23.468 -4.933 1.0904 2.205
+free_offset San Leandro 21.771 -4.104 1.1754 3.012
+free_offset Hayward 21.42 -3.236 1.1946 2.561
+free_offset Livermore 23.233 -7.944 1.1014 3.203
+free_offset Vallejo 19.215 -5.013 1.3317 5.63
+crosshair_at_Diablo none 23.52 -1.815 1.088 1.159
+crosshair_at_Diablo Oakland 25.14 -4.172 1.0179 0.247
+crosshair_at_Diablo San Leandro 22.696 -1.278 1.1275 1.615
+crosshair_at_Diablo Hayward 22.297 -1.18 1.1477 1.836
+crosshair_at_Diablo Livermore 23.849 -0.466 1.0729 1.264
+crosshair_at_Diablo Vallejo 23.808 -2.052 1.0748 1.005
+{'sigma_px': 6, 'sigma_miles': 1, 'miles_per_unit_2.5_50_97.5': [1.099, 1.168, 1.24], 'rotation_deg_2.5_50_97.5': [-8.2, -4.79, -1.34], 'predicted_location_95pct_radius_mi': 1.361}
+{'sigma_px': 6, 'sigma_miles': 3, 'miles_per_unit_2.5_50_97.5': [1.007, 1.22, 1.431], 'rotation_deg_2.5_50_97.5': [-14.77, -4.73, 5.4], 'predicted_location_95pct_radius_mi': 4.007}
+{'sigma_px': 15, 'sigma_miles': 1, 'miles_per_unit_2.5_50_97.5': [1.084, 1.169, 1.256], 'rotation_deg_2.5_50_97.5': [-8.95, -4.83, -0.73], 'predicted_location_95pct_radius_mi': 1.572}
+{'sigma_px': 15, 'sigma_miles': 3, 'miles_per_unit_2.5_50_97.5': [1.005, 1.219, 1.45], 'rotation_deg_2.5_50_97.5': [-15.72, -4.93, 5.4], 'predicted_location_95pct_radius_mi': 4.127}
+{'sigma_px': 30, 'sigma_miles': 1, 'miles_per_unit_2.5_50_97.5': [1.055, 1.166, 1.297], 'rotation_deg_2.5_50_97.5': [-10.63, -4.87, 0.88], 'predicted_location_95pct_radius_mi': 2.252}
+{'sigma_px': 30, 'sigma_miles': 3, 'miles_per_unit_2.5_50_97.5': [0.998, 1.219, 1.468], 'rotation_deg_2.5_50_97.5': [-16.88, -4.75, 6.9], 'predicted_location_95pct_radius_mi': 4.449}
+-- audit_08_identity_margin --
+{'quantity': 'classes_in_A', 'value': 29}
+{'quantity': 'max_within_class_distance', 'value': 0.0}
+{'quantity': 'min_between_class_distance', 'value': 0.1316}
+{'quantity': 'margin_min_between_minus_max_within', 'value': 0.1316}
+{'quantity': 'pipeline_threshold', 'value': 0.12}
+{'quantity': 'min_gap_best_vs_second_class_for_Fig1C_glyphs', 'value': 0.1316}
+-- audit_09_family_construction --
+{'item': 'distinct_phrases', 'value': 3544}
+{'item': 'phrases_from_more_than_one_template', 'value': 0}
+{'item': 'T1_in_family', 'value': True}
+{'item': 'T2_in_family', 'value': True}
+{'item': 'T3_in_family', 'value': False}
+written audit_09_family_construction.csv
+-- audit_10_null_diagnostic --
+(a) composition-null rate per pair = 0.0744; pairs with ratio > 2: 47 of 496; ratio < 0.5: 125
+(b) top orders: [('k7_d2_W1_E2', 21), ('k14_d2_W1_E2', 13)] expected each = 1.332
+(c) excess of top-2 orders = +31.34; excess of remaining 32 orders = -29.62; total = +1.71
+written audit_10 files
+-- audit_11_rounding_sensitivity --
+{'model': 'A_five_free_offset', 'site_theta3_lat': np.float64(37.92961), 'site_theta3_lon': np.float64(-122.15045), 'site_theta2_lat': np.float64(38.09401), 'site_theta2_lon': np.float64(-122.02082), 'distance_between_theta3_and_theta2_mi': 13.373, 'dist_theta3_to_road_point_mi': 2.821, 'dist_theta2_to_road_point_mi': 15.409}
+{'model': 'B_four_without_Oakland_free_offset', 'site_theta3_lat': np.float64(37.91975), 'site_theta3_lon': np.float64(-122.12037), 'site_theta2_lat': np.float64(38.07424), 'site_theta2_lon': np.float64(-121.99918), 'distance_between_theta3_and_theta2_mi': 12.549, 'dist_theta3_to_road_point_mi': 2.205, 'dist_theta2_to_road_point_mi': 14.733}
+{'model': 'C_five_crosshair_at_Diablo', 'site_theta3_lat': 37.90253, 'site_theta3_lon': -122.15078, 'site_theta2_lat': 38.05124, 'site_theta2_lon': -122.01944, 'distance_between_theta3_and_theta2_mi': 12.52, 'dist_theta3_to_road_point_mi': 1.159, 'dist_theta2_to_road_point_mi': 12.805}
+{'model': 'D_four_without_Oakland_crosshair_at_Diablo', 'site_theta3_lat': 37.89394, 'site_theta3_lon': -122.13628, 'site_theta2_lat': 38.03695, 'site_theta2_lon': -122.02074, 'distance_between_theta3_and_theta2_mi': 11.715, 'dist_theta3_to_road_point_mi': 0.247, 'dist_theta2_to_road_point_mi': 11.921}
+written audit_11_rounding_sensitivity.csv
+== 3. SHA-256 of all bundled and generated files ==
+./README.md: OK
+./data/landmarks.csv: OK
+./data/z32_fig1A_transcription.csv: OK
+./docs/AUDIT_REPORT.md: OK
+./docs/CORRECTIONS_LOG.md: OK
+./images/fig1_all_panels_p8_native.png: OK
+./images/fig2_grid_overlay_for_reading.png: OK
+./images/fig2_map_p9_native.png: OK
+./input/2023-982.pdf: OK
+./original_docs/CLASSIFICATION.md: OK
+./original_docs/PREREGISTRATION.md: OK
+./original_docs/README_previous_package.md: OK
+./original_docs/SOLUTION_CRITERIA.md: OK
+./original_results/CHECKSUMS_previous_package.txt: OK
+./original_results/alternatives_candidates.csv: OK
+./original_results/alternatives_summary.csv: OK
+./original_results/fig_glyph_check.csv: OK
+./original_results/literal_phrase_test.csv: OK
+./original_results/map_audit_landmarks.csv: OK
+./original_results/map_audit_models.csv: OK
+./original_results/map_crosshair_and_rings.csv: OK
+./original_results/run_log_previous_package.txt: OK
+./original_results/transposition_all_configs.csv: OK
+./original_results/transposition_assumption_effects.csv: OK
+./original_results/valid_orders.json: OK
+./original_run_all.sh: OK
+./requirements.txt: OK
+./results/alternatives_candidates.csv: OK
+./results/alternatives_summary.csv: OK
+./results/audit_01_repeat_recheck.csv: OK
+./results/audit_02_forced_structure.csv: OK
+./results/audit_02_primary_path.csv: OK
+./results/audit_02_second_implementation.csv: OK
+./results/audit_03_exact_null_per_phrase.csv: OK
+./results/audit_03_exact_null_summary.csv: OK
+./results/audit_03_mc_check.csv: OK
+./results/audit_04_alternatives_sensitivity.csv: OK
+./results/audit_04_per_order.csv: OK
+./results/audit_05_statistic_power.csv: OK
+./results/audit_06_pairwise.csv: OK
+./results/audit_06_summary.csv: OK
+./results/audit_07_leave_one_out.csv: OK
+./results/audit_07_noise_sweep.csv: OK
+./results/audit_08_identity_margin.csv: OK
+./results/audit_09_family_construction.csv: OK
+./results/audit_10_order_decomposition.csv: OK
+./results/audit_10_pair_match_rates.csv: OK
+./results/audit_10_summary.csv: OK
+./results/audit_11_rounding_sensitivity.csv: OK
+./results/fig_glyph_check.csv: OK
+./results/literal_phrase_test.csv: OK
+./results/map_audit_landmarks.csv: OK
+./results/map_audit_models.csv: OK
+./results/map_crosshair_and_rings.csv: OK
+./results/transposition_all_configs.csv: OK
+./results/transposition_assumption_effects.csv: OK
+./results/valid_orders.json: OK
+./run_all.sh: OK
+./scripts/alternatives_family.py: OK
+./scripts/audit/audit_01_repeat_recheck.py: OK
+./scripts/audit/audit_02_transposition_forced_structure.py: OK
+./scripts/audit/audit_03_exact_null.py: OK
+./scripts/audit/audit_04_alternatives_sensitivity.py: OK
+./scripts/audit/audit_05_statistic_power.py: OK
+./scripts/audit/audit_06_map_pairwise_scale.py: OK
+./scripts/audit/audit_07_map_leave_one_out_and_noise.py: OK
+./scripts/audit/audit_08_identity_margin.py: OK
+./scripts/audit/audit_09_family_construction.py: OK
+./scripts/audit/audit_10_null_diagnostic.py: OK
+./scripts/audit/audit_11_rounding_sensitivity.py: OK
+./scripts/common.py: OK
+./scripts/compare_pixels.py: OK
+./scripts/fig_glyph_check.py: OK
+./scripts/literal_phrase_test.py: OK
+./scripts/make_grid_overlay.py: OK
+./scripts/map_audit.py: OK
+./scripts/transposition_family.py: OK
+== done ==
+EXIT=0

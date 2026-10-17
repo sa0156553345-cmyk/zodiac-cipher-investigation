@@ -1,0 +1,13 @@
+model,removed_city,n_cities,px_per_mile,rotation_deg,offset_px,miles_per_unit,predicted_lat,predicted_lon,dist_to_road_point_mi
+free_offset,none,5,22.021,-4.802,"(-25.7,-53.0)",1.162,37.92961,-122.15045,2.821
+free_offset,Oakland,4,23.468,-4.933,"(-44.7,-40.8)",1.0904,37.91975,-122.12037,2.205
+free_offset,San Leandro,4,21.771,-4.104,"(-15.9,-49.2)",1.1754,37.92952,-122.16044,3.012
+free_offset,Hayward,4,21.42,-3.236,"(-21.3,-33.8)",1.1946,37.92311,-122.15817,2.561
+free_offset,Livermore,4,23.233,-7.944,"(-2.1,-79.9)",1.1014,37.9319,-122.16225,3.203
+free_offset,Vallejo,4,19.215,-5.013,"(-48.4,-93.9)",1.3317,37.96807,-122.16726,5.63
+crosshair_at_Diablo,none,5,23.52,-1.815,"(0.0,0.0)",1.088,37.90253,-122.15078,1.159
+crosshair_at_Diablo,Oakland,4,25.14,-4.172,"(0.0,0.0)",1.0179,37.89394,-122.13628,0.247
+crosshair_at_Diablo,San Leandro,4,22.696,-1.278,"(0.0,0.0)",1.1275,37.90511,-122.15914,1.615
+crosshair_at_Diablo,Hayward,4,22.297,-1.18,"(0.0,0.0)",1.1477,37.90586,-122.1635,1.836
+crosshair_at_Diablo,Livermore,4,23.849,-0.466,"(0.0,0.0)",1.0729,37.9066,-122.14682,1.264
+crosshair_at_Diablo,Vallejo,4,23.808,-2.052,"(0.0,0.0)",1.0748,37.90151,-122.14801,1.005

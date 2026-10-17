@@ -1,0 +1,6 @@
+quantity,value
+"predicted_marker_x_px (r=12 units, theta=3 rad, figure east ccw)",186.04
+predicted_marker_y_px,410.85
+measured_marker_x_px,186
+measured_marker_y_px,410
+difference_px,0.85

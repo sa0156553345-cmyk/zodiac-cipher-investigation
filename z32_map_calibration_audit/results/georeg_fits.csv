@@ -1,0 +1,9 @@
+model,description,n_cities,px_per_mile,s_fit_miles_per_unit,rotation_deg,offset_x_px,offset_y_px,rms_residual_px,worst_residual_px
+G1,"similarity, 5 cities, free offset",5,21.9989,1.1664,-4.724,-26.74,-53.0,54.03,128.39
+G2,"similarity, 5 cities, zero offset (crosshair = summit)",5,23.5247,1.0908,-1.771,0.0,0.0,63.29,132.91
+G3,"affine, 5 cities, free offset",5,22.0458,1.1639,n/a,-56.54,1.94,44.82,102.38
+G4,"similarity, free offset, without Oakland",4,23.4551,1.094,-4.857,-45.76,-40.71,28.35,52.41
+G5,"similarity, free offset, without San Leandro",4,21.7493,1.1798,-4.034,-17.01,-49.27,56.45,112.82
+G6,"similarity, free offset, without Hayward",4,21.3964,1.1993,-3.17,-22.39,-33.87,51.49,112.31
+G7,"similarity, free offset, without Livermore",4,23.2314,1.1045,-7.802,-2.62,-79.41,55.88,131.89
+G8,"similarity, free offset, without Vallejo",4,19.1613,1.3392,-4.99,-49.43,-94.59,53.23,93.43

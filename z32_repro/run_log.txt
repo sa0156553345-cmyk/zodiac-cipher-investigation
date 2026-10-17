@@ -1,0 +1,74 @@
+== environment ==
+run at (UTC): 2026-10-11T17:30:17Z
+Python 3.12.3
+numpy 2.4.4 | Pillow 12.1.1
+== 0. re-extract figures from input/2023-982.pdf and compare with bundled PNGs ==
+extracted into /tmp/tmp.AN5djEY6MG
+fig1_all_panels_p8_native.png: pixel-identical = True  (size (987, 498))
+bytes sha256 fresh extraction: 56556afe08838e5021101e07daa459748c60c1a4cdc23d816dd4bc9d1117e0b3
+fig2_map_p9_native.png: pixel-identical = True  (size (916, 894))
+bytes sha256 fresh extraction: 8746ed1f65c9713ddc73837796261a07756c5b6a30e74f21b76d40258b9fd94a
+== 1. bitmap identity check (fig_glyph_check.py) ==
+identity classes in Fig.1(A) by bitmap: 29 (expected 29)
+repeated classes (1-indexed positions): [[1, 26], [2, 32], [6, 14]]
+bitmap classes agree with the transcription labels: True
+max mismatch, Fig.1(B) vs Fig.1(A) same symbol: 0.0
+worst mismatch for any Fig.1(C) glyph: 0.0
+Fig.1(C) reading by bitmap: CX2VAC7PGID4H6?TJF3!5LR118O9MEOW
+written fig_glyph_check.csv
+== 2. transposition family and phrase tests (transposition_family.py) ==
+configurations: 204   valid readings: 34   unique valid orders: 34
+status counts: {'empty_cell': 34, 'layout_overflow': 56, 'ok': 34, 'overflow': 12, 'revisit': 68}
+valid readings by (wrap, emode): {('W1', 'E1'): 0, ('W1', 'E2'): 34, ('W2', 'E1'): 0, ('W2', 'E2'): 0, ('W3', 'E1'): 0, ('W3', 'E2'): 0}
+configurations reproducing Fig.1(C) with 32/32: [(2, 2, 'W1', 'E2')]
+T1_target        orders with 3/3 = 0/34   null mean = 0.0092   P(null>=obs) = 1.0000
+T2_alt           orders with 3/3 = 0/34   null mean = 0.0092   P(null>=obs) = 1.0000
+T3_other         orders with 3/3 = 0/34   null mean = 0.0092   P(null>=obs) = 1.0000
+T4_foxon_edited  orders with 3/3 = 1/34   null mean = 0.0092   P(null>=obs) = 0.0090
+
+per-pair luck probability sum p^2 = 0.0654; per 3-pair order = 2.80e-04
+written z32_all_configs.csv and z32_phrase_tests.csv
+== 3. map check (map_check.py) ==
+crosshair centre (px)                              (490,454)                  px           [measured]
+ring labelled 4 radius                             102                        px           [measured]
+ring labelled 8 radius                             205                        px           [measured]
+ring labelled 12 radius                            307                        px           [measured]
+pixels per figure unit                             25.59                      px/unit      [computed from measurements]
+Mount Diablo lat, lon (NAD27)                      37.881774, -121.913085     deg          [sourced]
+State Highway 24 point lat, lon                    37.890364, -122.136156     deg          [sourced]
+distance Diablo -> Highway 24 point                12.18                      miles        [computed]
+bearing Diablo -> Highway 24 point                 272.86                     deg from N   [computed]
+bearing of Foxon's (12,3), E-anticlockwise         278.11                     deg from N   [convention (paper/figure labels)]
+bearing offset (Highway point minus (12,3))        -5.25                      deg          [computed]
+implied miles per unit if Highway point = (12,3)   1.015                      miles/unit   [single-point estimate, not a fit]
+claimed scale 6.4 miles per inch: (12,3) distance  76.8                       miles        [claim (Cipher Mysteries), not measured]
+claimed scale: (12,3) endpoint                     38.030, -123.310           deg          [computed from claim]
+Grinell: San Francisco at "5 inches"               not computed                            [excluded]
+written map_check.csv
+== 4. SHA-256 of all bundled and generated files ==
+./README.md: OK
+./compare_pixels.py: OK
+./extract_figures.sh: OK
+./fig1_all_panels_p8_native.png: OK
+./fig2_map_p9_native.png: OK
+./fig_glyph_check.csv: OK
+./fig_glyph_check.py: OK
+./input/2023-982.pdf: OK
+./map_check.csv: OK
+./map_check.py: OK
+./requirements.txt: OK
+./run_all.sh: OK
+./superseded/README_SUPERSEDED.md: OK
+./superseded/fig1_all_panels_p8_native.png: OK
+./superseded/fig2_map_p9_native.png: OK
+./superseded/z32_all_configs.csv: OK
+./superseded/z32_fig1A_transcription.csv: OK
+./superseded/z32_map_scale_check.csv: OK
+./superseded/z32_map_scale_check.py: OK
+./superseded/z32_phrase_tests.csv: OK
+./superseded/z32_transposition_test.py: OK
+./transposition_family.py: OK
+./z32_all_configs.csv: OK
+./z32_fig1A_transcription.csv: OK
+./z32_phrase_tests.csv: OK
+== done ==

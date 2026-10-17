@@ -1,0 +1,36 @@
+model,city,residual_x_px,residual_y_px,residual_px
+G1,Oakland,-126.65,21.06,128.39
+G1,San Leandro,52.71,8.15,53.34
+G1,Hayward,49.97,57.54,76.21
+G1,Livermore,11.46,-41.72,43.27
+G1,Vallejo,12.51,-45.03,46.74
+G2,Oakland,-125.27,44.4,132.91
+G2,San Leandro,70.0,29.55,75.98
+G2,Hayward,78.02,77.24,109.79
+G2,Livermore,65.77,-2.0,65.8
+G2,Vallejo,-6.04,14.28,15.51
+G3,Oakland,-101.99,-8.89,102.38
+G3,San Leandro,62.48,-19.53,65.46
+G3,Hayward,50.04,30.43,58.56
+G3,Livermore,-34.85,-7.42,35.63
+G3,Vallejo,24.32,5.41,24.92
+G4,San Leandro,12.55,7.13,14.43
+G4,Hayward,15.09,50.19,52.41
+G4,Livermore,1.54,-50.76,50.78
+G4,Vallejo,-29.17,-6.57,29.9
+G5,Oakland,-110.95,20.48,112.82
+G5,Hayward,65.93,62.04,90.53
+G5,Livermore,23.25,-32.61,40.05
+G5,Vallejo,21.76,-49.92,54.45
+G6,Oakland,-107.99,30.85,112.31
+G6,San Leandro,71.31,24.96,75.55
+G6,Livermore,20.01,-9.88,22.32
+G6,Vallejo,16.67,-45.92,48.86
+G7,Oakland,-131.02,15.13,131.89
+G7,San Leandro,47.8,-12.18,49.33
+G7,Hayward,44.35,27.44,52.15
+G7,Vallejo,38.87,-30.39,49.34
+G8,Oakland,-93.05,-8.36,93.43
+G8,San Leandro,69.34,-4.77,69.5
+G8,Hayward,55.48,56.23,79.0
+G8,Livermore,-31.77,-43.1,53.55

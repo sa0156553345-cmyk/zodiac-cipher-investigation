@@ -1,0 +1,7 @@
+quantity,value,score_or_note
+crosshair_centre_x_px,490,projection of dark line columns
+crosshair_centre_y_px,454,projection of dark line rows
+ring_labelled_4_radius_px,102,ring score 0.955
+ring_labelled_8_radius_px,205,ring score 0.976
+ring_labelled_12_radius_px,307,ring score 0.881
+pixels_per_figure_unit,25.589,least squares through origin

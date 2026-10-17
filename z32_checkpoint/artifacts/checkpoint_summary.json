@@ -1,0 +1,1 @@
+{"agreement": 0.6088, "mismatches": 133, "unused_key_ids": ["B02", "L01", "P02", "R04", "S02", "U03"], "low_margin_cells": 116, "first_mismatch": {"k": 0, "row": 1, "col": 1, "matched_id": "O04", "decrypted": "O", "reference": "I", "margin": 0.052}}

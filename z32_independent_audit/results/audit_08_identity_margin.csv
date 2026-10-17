@@ -1,0 +1,7 @@
+quantity,value
+classes_in_A,29
+max_within_class_distance,0.0
+min_between_class_distance,0.1316
+margin_min_between_minus_max_within,0.1316
+pipeline_threshold,0.12
+min_gap_best_vs_second_class_for_Fig1C_glyphs,0.1316

@@ -1,0 +1,6 @@
+quantity,value
+distinct_phrases_N,3544
+sum_of_exact_P,1.33223438
+exact_expected_total_34_orders,45.2960
+exact_expected_total_2_paper_orders,2.6645
+pipeline_MC_null_mean_34_orders,45.266

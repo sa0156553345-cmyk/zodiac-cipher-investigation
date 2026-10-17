@@ -1,0 +1,9 @@
+quantity,value
+composition_null_rate_per_pair,0.07444
+pairs_with_ratio_above_2,47
+pairs_with_ratio_below_0.5,125
+expected_passes_per_order_composition_null,1.3322
+top2_orders,k7_d2_W1_E2 ; k14_d2_W1_E2
+top2_excess,31.336
+remaining_orders_excess,-29.624
+total_excess,1.712

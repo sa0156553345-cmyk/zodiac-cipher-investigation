@@ -1,0 +1,160 @@
+{
+ "validation_vincenty_err_deg": 1.3721310665459896e-07,
+ "D_min": 26.58313511606327,
+ "D_max": 33.68523004212982,
+ "S_lo": 4.833297293829686,
+ "S_hi": 7.485606676028848,
+ "audit_scale": 1.162,
+ "cand_dist_mi": 13.351928219116669,
+ "cand_bearing": 284.4607063040298,
+ "cand_geom": {
+  "N-CW": {
+   "bearing": 171.8873,
+   "offset_deg": 112.5734,
+   "min_dist_mi": 13.3519,
+   "nearest": "origin"
+  },
+  "N-CCW": {
+   "bearing": 188.1127,
+   "offset_deg": 96.348,
+   "min_dist_mi": 13.3519,
+   "nearest": "origin"
+  },
+  "E-CW": {
+   "bearing": 261.8873,
+   "offset_deg": 22.5734,
+   "min_dist_mi": 5.1253,
+   "nearest": "radial"
+  },
+  "E-CCW": {
+   "bearing": 278.1127,
+   "offset_deg": 6.348,
+   "min_dist_mi": 1.4763,
+   "nearest": "radial"
+  },
+  "S-CW": {
+   "bearing": 351.8873,
+   "offset_deg": -67.4266,
+   "min_dist_mi": 12.329,
+   "nearest": "radial"
+  },
+  "S-CCW": {
+   "bearing": 8.1127,
+   "offset_deg": -83.652,
+   "min_dist_mi": 13.2701,
+   "nearest": "radial"
+  },
+  "W-CW": {
+   "bearing": 81.8873,
+   "offset_deg": -157.4266,
+   "min_dist_mi": 13.3519,
+   "nearest": "origin"
+  },
+  "W-CCW": {
+   "bearing": 98.1127,
+   "offset_deg": -173.652,
+   "min_dist_mi": 13.3519,
+   "nearest": "origin"
+  }
+ },
+ "best_any_scale_mi": 1.4763,
+ "min_band_dense_mi": 44.75385953109053,
+ "supported_possible": false,
+ "ellipsoid_worst_m": {
+  "band_mid": 284.1992617373691,
+  "claim_6.4": 295.32048747584037,
+  "audit_fit": 53.527814569512806
+ },
+ "datum_proxy_m": 45.4931289611675,
+ "unreg_closest": [
+  [
+   "E-CW+16.9",
+   "audit_fit",
+   1.475
+  ],
+  [
+   "E-CCW+16.9",
+   "audit_fit",
+   2.578
+  ],
+  [
+   "E-CCW-16.9",
+   "audit_fit",
+   5.53
+  ]
+ ],
+ "figure_centre": [
+  491,
+  454
+ ],
+ "figure_peaks": [
+  [
+   102.0,
+   300.0,
+   189.21875
+  ],
+  [
+   78.0,
+   300.0,
+   187.01666666666668
+  ],
+  [
+   287.5,
+   312.5,
+   177.16666666666666
+  ],
+  [
+   173.0,
+   312.5,
+   154.38333333333333
+  ],
+  [
+   261.0,
+   313.5,
+   154.15
+  ],
+  [
+   187.0,
+   312.5,
+   154.03333333333333
+  ],
+  [
+   7.0,
+   312.0,
+   153.86770833333333
+  ],
+  [
+   351.0,
+   313.0,
+   153.73333333333332
+  ],
+  [
+   178.5,
+   300.5,
+   147.09270833333332
+  ],
+  [
+   91.5,
+   300.5,
+   141.28333333333333
+  ],
+  [
+   277.5,
+   310.0,
+   140.81770833333334
+  ]
+ ],
+ "figure_pred_diff": {
+  "N-CW": 1.11,
+  "N-CCW": 1.11,
+  "E-CW": 0.89,
+  "E-CCW": 0.61,
+  "S-CW": 0.89,
+  "S-CCW": 1.11,
+  "W-CW": 3.89,
+  "W-CCW": 3.89
+ },
+ "max_p5_bearing_diff": 0.0027000000000043656,
+ "max_p5_m_printed": 8.031240279535723,
+ "max_p5_m_exact": 0.05458417909665059
+}

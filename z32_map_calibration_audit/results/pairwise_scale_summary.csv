@@ -1,0 +1,7 @@
+quantity,value
+pairs,10
+miles_per_unit_median,1.0824
+miles_per_unit_min,0.875
+miles_per_unit_max,1.6468
+relative_spread_max_minus_min_over_median,0.713
+criterion_below_10_percent,False

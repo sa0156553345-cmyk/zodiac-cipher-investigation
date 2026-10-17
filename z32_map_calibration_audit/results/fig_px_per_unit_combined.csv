@@ -1,0 +1,5 @@
+quantity,value,note
+px_per_unit_combined,25.66,mean of method means
+spread_between_methods_px,0.0195,sd of method means
+spread_between_methods_percent,0.076,
+centre_max_disagreement_px,1.031,max distance between centre estimates

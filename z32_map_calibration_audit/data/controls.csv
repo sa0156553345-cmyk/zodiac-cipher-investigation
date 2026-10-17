@@ -1,0 +1,6 @@
+name,role,lat,lon,geo_source,image_x,image_y,image_sigma_px,provenance
+Oakland,city,37.80444,-122.27083,Wikipedia city page (recorded in previous package),152,609,6,label centre read by eye on grid overlay; label-to-centre offset not validated
+San Leandro,city,37.72500,-122.15611,Wikipedia city page (recorded in previous package),100,728,6,label centre read by eye on grid overlay; label-to-centre offset not validated
+Hayward,city,37.66882,-122.08080,Wikipedia city page (recorded in previous package),186,870,6,label centre read by eye on grid overlay; label-to-centre offset not validated
+Livermore,city,37.68194,-121.76806,Wikipedia city page (recorded in previous package),602,782,6,label centre read by eye on grid overlay; label-to-centre offset not validated
+Vallejo,city,38.11306,-122.23583,Wikipedia city page (recorded in previous package),95,80,6,label centre read by eye on grid overlay; label-to-centre offset not validated

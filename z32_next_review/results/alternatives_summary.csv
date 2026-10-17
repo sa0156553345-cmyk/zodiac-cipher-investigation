@@ -1,0 +1,10 @@
+quantity,value
+family_size_N,3544
+valid_orders_M,34
+observed_passes_O,47
+null_total_mean,45.266
+null_total_sd,6.8143
+global_p_family_excess,0.417
+phrases_passing_in_at_least_one_order,47
+permutations_per_phrase_R,2000
+bonferroni_factor,3544

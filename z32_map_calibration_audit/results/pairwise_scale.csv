@@ -1,0 +1,11 @@
+pair,geodesic_miles,image_px,px_per_mile,miles_per_unit
+Oakland -- San Leandro,8.335,129.87,15.581,1.6468
+Oakland -- Hayward,13.993,263.21,18.809,1.3642
+Oakland -- Livermore,28.802,482.11,16.739,1.533
+Oakland -- Vallejo,21.371,532.06,24.896,1.0307
+San Leandro -- Hayward,5.661,166.01,29.327,0.875
+San Leandro -- Livermore,21.47,504.9,23.517,1.0911
+San Leandro -- Vallejo,27.116,648.02,23.898,1.0737
+Hayward -- Livermore,17.167,425.21,24.769,1.036
+Hayward -- Vallejo,31.789,795.22,25.016,1.0257
+Livermore -- Vallejo,39.213,865.94,22.083,1.162

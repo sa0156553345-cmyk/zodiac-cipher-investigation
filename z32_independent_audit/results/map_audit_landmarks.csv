@@ -1,0 +1,6 @@
+landmark,miles_east,miles_north,image_dx_px,image_dy_px,px_per_mile_raw,geo_bearing_deg,image_bearing_deg,fit_residual_px
+Oakland,-19.531,-5.336,-338,-155,18.366,254.8,245.36,127.9
+San Leandro,-13.268,-10.817,-390,-274,27.843,230.84,234.91,53.8
+Hayward,-9.156,-14.694,-304,-416,29.76,211.95,216.16,76.3
+Livermore,7.918,-13.789,112,-328,21.798,150.12,161.15,43.5
+Vallejo,-17.62,15.959,-395,374,22.882,312.38,313.44,45.9

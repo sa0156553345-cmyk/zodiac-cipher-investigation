@@ -1,0 +1,12 @@
+{
+ "1": {"label": "4", "confidence": "high", "note": "thin H in photo; candidate is bold H"},
+ "2": {"label": "3", "confidence": "high", "note": "square outline with central dot; candidate has the same dot"},
+ "3": {"label": "5", "confidence": "medium-high", "note": "B-shaped glyph with straight left side; alternative candidate with notch judged less similar"},
+ "4": {"label": null, "confidence": "unresolved", "note": "photo is a square with diagonal triangle; no such glyph among top-5"},
+ "5": {"label": null, "confidence": "unresolved", "note": "blurred stacked-stroke mark; no candidate matches"},
+ "6": {"label": "1", "confidence": "medium-high", "note": "hollow D-shape with flat left side"},
+ "7": {"label": "1", "confidence": "high", "note": "letter-like F shape"},
+ "8": {"label": "2", "confidence": "medium-high", "note": "hollow triangle outline without dot"},
+ "9": {"label": null, "confidence": "unresolved", "note": "photo shows a '<' shape; no '<' candidate in top-5"},
+ "10": {"label": "1", "confidence": "low", "note": "filled rounded square; two filled-square glyphs may match (ambiguous)"}
+}

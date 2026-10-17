@@ -1,0 +1,25 @@
+Diablo (pkg): (37.881774, -121.913085)
+A: px/mile=22.021  rot=-4.802  offset_px=(-25.7,-53.0) -> offset 2.67 mi  pred=(37.92961,-122.15045)
+B: px/mile=23.468  rot=-4.933  offset_px=(-44.7,-40.8) -> offset 2.58 mi  pred=(37.91975,-122.12037)
+C: px/mile=23.520  rot=-1.815  offset_px=(0.0,0.0) -> offset 0.00 mi  pred=(37.90253,-122.15078)
+D: px/mile=25.140  rot=-4.172  offset_px=(0.0,0.0) -> offset 0.00 mi  pred=(37.89394,-122.13628)
+
+Distance from USER candidate to each re-implemented model:
+  A: 0.01 mi
+  B: 1.77 mi
+  C: 1.88 mi
+  D: 2.59 mi
+Diablo-summit origin check: crosshair pixel (490,454) corresponds to Diablo summit in model C only.
+
+Model A sensitivity (free offset kept, 12 units, 3 rad):
+  rot=-8.336: (37.91794,-122.15372)  d_cand=0.84 mi
+  rot=-4.802: (37.92961,-122.15045)  d_cand=0.01 mi
+  rot=-1.133: (37.94153,-122.14609)  d_cand=0.84 mi
+  px/mile= 15.59 (mi/unit=1.641): (37.94935,-122.24837)  d_cand=5.51 mi
+  px/mile= 19.20 (mi/unit=1.333): (37.93664,-122.18533)  d_cand=1.97 mi
+  px/mile= 22.02 (mi/unit=1.162): (37.92961,-122.15046)  d_cand=0.01 mi
+  px/mile= 25.14 (mi/unit=1.018): (37.92368,-122.12100)  d_cand=1.65 mi
+  px/mile= 29.73 (mi/unit=0.861): (37.91721,-122.08890)  d_cand=3.46 mi
+
+Pole at crosshair (paper's assumption, model C) vs user candidate: 1.88 mi
+Model A pole displacement from crosshair: 2.67 mi (free offset)

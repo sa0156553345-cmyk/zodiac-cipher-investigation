@@ -1,0 +1,5 @@
+method,n_estimates,px_per_unit_mean,px_per_unit_sd,px_per_unit_min,px_per_unit_max
+ring_fits_kasa_4_8_12,3,25.6437,0.002,25.6414,25.645
+outer_boxes_and_marker_mean,1,25.6769,,25.6769,25.6769
+outer_boxes_individual,8,25.6769,0.0447,25.621,25.7386
+least_squares_radius_vs_units_through_origin,1,25.6426,,25.6426,25.6426

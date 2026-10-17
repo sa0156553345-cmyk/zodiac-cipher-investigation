@@ -1,0 +1,16 @@
+quantity,value,unit,method_or_source,status
+crosshair centre (px),"(490,454)",px,projection of dark line columns/rows,measured
+ring labelled 4 radius,102,px,"ring scan, score 0.955",measured
+ring labelled 8 radius,205,px,"ring scan, score 0.976",measured
+ring labelled 12 radius,307,px,"ring scan, score 0.881",measured
+pixels per figure unit,25.59,px/unit,"least squares through origin, 3 rings",computed from measurements
+"Mount Diablo lat, lon (NAD27)","37.881774, -121.913085",deg,Foxon 2023 Table 2,sourced
+"State Highway 24 point lat, lon","37.890364, -122.136156",deg,findlatitudeandlongitude.com,sourced
+distance Diablo -> Highway 24 point,12.18,miles,"haversine, R = 3958.8 mi",computed
+bearing Diablo -> Highway 24 point,272.86,deg from N,haversine initial bearing,computed
+"bearing of Foxon's (12,3), E-anticlockwise",278.11,deg from N,"theta = 3 rad, polar axis east, anticlockwise",convention (paper/figure labels)
+"bearing offset (Highway point minus (12,3))",-5.25,deg,difference of the two bearings,computed
+"implied miles per unit if Highway point = (12,3)",1.015,miles/unit,"distance only; assumes the point IS (12,3), bearing mismatch shown above","single-point estimate, not a fit"
+"claimed scale 6.4 miles per inch: (12,3) distance",76.8,miles,12 x 6.4,"claim (Cipher Mysteries), not measured"
+"claimed scale: (12,3) endpoint","38.030, -123.310",deg,destination formula at 6.4 mi/unit,computed from claim
+"Grinell: San Francisco at ""5 inches""",not computed,,no sourced coordinate for SF in this check,excluded

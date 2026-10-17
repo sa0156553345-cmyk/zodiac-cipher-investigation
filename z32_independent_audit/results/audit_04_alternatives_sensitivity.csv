@@ -1,0 +1,4 @@
+subset,n_orders,observed_passes_O,exact_expected_under_null,MC_null_mean,MC_null_sd,MC_global_p_ge_O,R
+all_34_orders (pipeline),34,47,45.296,45.266,6.8143,0.417,2000
+paper_layout_k2_orders (2),2,1,2.6645,2.662,1.5877,0.936,2000
+non_paper_layout_orders (32),32,46,42.6315,42.604,6.6256,0.33,2000

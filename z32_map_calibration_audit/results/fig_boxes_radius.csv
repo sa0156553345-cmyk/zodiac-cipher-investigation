@@ -1,0 +1,9 @@
+item,x_px,y_px,radius_px_from_weighted_centre,px_per_unit_if_radius_is_12_units
+sq_top_left,447,150,307.45,25.621
+sq_top_right,535,150,307.49,25.6238
+sq_east_upper,796,410,308.32,25.6934
+sq_east_lower,796,497,308.09,25.6744
+sq_bottom_left,447,760,308.83,25.7357
+sq_bottom_right,535,760,308.86,25.7386
+sq_west_lower,186,497,307.85,25.6546
+white_marker_12_3,186,410,308.08,25.6735

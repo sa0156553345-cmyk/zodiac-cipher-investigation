@@ -1,0 +1,4 @@
+ring_label,fit_cx_px,fit_cy_px,fit_radius_px,n_inlier_pixels,rms_residual_px,centre_offset_from_weighted_centre_px,px_per_unit_from_fit
+4,490.88,454.3,102.58,584,0.673,0.0,25.6447
+8,490.89,454.3,205.16,1684,0.677,0.01,25.645
+12,490.87,454.31,307.7,2740,0.729,0.01,25.6414

@@ -1,0 +1,16 @@
+pair,geo_miles,image_px,px_per_mile,miles_per_unit,geo_bearing_deg,image_bearing_deg,bearing_diff_deg
+Oakland -- San Leandro,8.33,129.87,15.59,1.6414,131.18,203.6,72.42
+Oakland -- Hayward,13.987,263.21,18.818,1.3598,132.01,172.58,40.57
+Oakland -- Livermore,28.744,482.11,16.772,1.5257,106.97,111.03,4.06
+Oakland -- Vallejo,21.409,532.06,24.852,1.0296,5.1,353.85,-11.25
+Oakland -- Mount Diablo (crosshair),20.238,371.85,18.374,1.3927,74.58,65.36,-9.22
+San Leandro -- Hayward,5.659,166.01,29.337,0.8722,133.29,148.8,15.51
+San Leandro -- Livermore,21.421,504.9,23.57,1.0856,97.87,96.14,-1.73
+San Leandro -- Vallejo,27.162,648.02,23.857,1.0726,350.82,359.56,8.74
+San Leandro -- Mount Diablo (crosshair),17.128,476.63,27.828,0.9195,50.7,54.91,4.21
+Hayward -- Livermore,17.127,425.21,24.827,1.0307,86.87,78.06,-8.81
+Hayward -- Vallejo,31.837,795.22,24.978,1.0245,344.65,353.43,8.78
+Hayward -- Mount Diablo (crosshair),17.332,515.24,29.728,0.8608,31.85,36.16,4.31
+Livermore -- Vallejo,39.214,865.94,22.082,1.1588,319.57,324.16,4.59
+Livermore -- Mount Diablo (crosshair),15.917,346.59,21.775,1.1752,330.21,341.15,10.94
+Vallejo -- Mount Diablo (crosshair),23.753,543.97,22.901,1.1174,132.18,133.44,1.25

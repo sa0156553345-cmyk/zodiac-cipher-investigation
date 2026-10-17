@@ -1,0 +1,11 @@
+# Versions used in the packaging tests (observed in the sandbox). Other versions are untested.
+numpy==2.4.4
+Pillow==12.1.1
+scipy==1.17.1
+scikit-image==0.26.0
+scikit-learn==1.8.0
+matplotlib==3.10.8
+seaborn==0.13.2
+pandas==3.0.2
+# The Foxon audit package states its own minimum versions in z32_independent_audit/requirements.txt (numpy>=1.21, Pillow>=9.0).
+# System tools (not installed by pip): poppler-utils (pdfimages, pdftotext) and tesseract-ocr (command line; version 5.3.4 was used).

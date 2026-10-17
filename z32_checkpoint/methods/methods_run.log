@@ -1,0 +1,18 @@
+feature build + scoring:
+M0-M3 done 34.0 s
+ rot -6 56.7 s
+ rot -4 79.4 s
+ rot -2 102.3 s
+ rot 0 124.5 s
+ rot 2 146.9 s
+ rot 4 169.6 s
+ rot 6 192.6 s
+M0: tune=0.624 val=0.594 all=0.609
+M1: tune=0.659 val=0.671 all=0.665
+M2: tune=0.565 val=0.565 all=0.565
+M3: tune=0.688 val=0.688 all=0.688
+M4: tune=0.653 val=0.629 all=0.641
+M5: tune=0.735 val=0.682 all=0.709
+sanity: M0 top-1 differs from v4 in 0 cells
+selected by tuning set: M5
+DONE 192.7 s

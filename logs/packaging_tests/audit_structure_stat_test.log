@@ -1,0 +1,18 @@
+[OBS] same functions applied to the observed sequence: {'S2': 3, 'Sge2': 3, 'MAX': 2, 'D': 29, 'pattern': [2, 2, 2]}
+[CHECK] DP vs exact partition (A=29): max |diff| S2=1.94e-16, Sge2=3.05e-16
+[uniform_A=29    ] exact E[S2]=5.9688 E[Sge2]=8.7832 | P(S2<=3)=0.101224 P(S2>=3)=0.967583 | MC P(S2<=3)=0.101008(+-3.0e-04) | P(Sge2<=3)=1.54193e-05 P(Sge2>=3)=1 | REG=consistent CODED=rejected
+[uniform_A=54    ] exact E[S2]=5.2427 E[Sge2]=6.3827 | P(S2<=3)=0.15713 P(S2>=3)=0.947939 | MC P(S2<=3)=0.157035(+-3.6e-04) | P(Sge2<=3)=0.0243195 P(Sge2>=3)=0.99651 | REG=consistent CODED=rejected
+[uniform_A=63    ] exact E[S2]=4.8716 E[Sge2]=5.7582 | P(S2<=3)=0.208928 P(S2>=3)=0.925738 | MC P(S2<=3)=0.208557(+-4.1e-04) | P(Sge2<=3)=0.0647173 P(Sge2>=3)=0.987049 | REG=consistent CODED=consistent
+[uniform_A=100   ] exact E[S2]=3.6689 E[Sge2]=4.0683 | P(S2<=3)=0.470479 P(S2>=3)=0.772932 | MC P(S2<=3)=0.470706(+-5.0e-04) | P(Sge2<=3)=0.360621 P(Sge2>=3)=0.854862 | REG=consistent CODED=consistent
+[uniform_A=165   ] exact E[S2]=2.5049 E[Sge2]=2.6647 | P(S2<=3)=0.77828 P(S2>=3)=0.476146 | MC P(S2<=3)=0.778261(+-4.2e-04) | P(Sge2<=3)=0.742148 P(Sge2>=3)=0.525813 | REG=consistent CODED=consistent
+[uniform_A=250   ] exact E[S2]=1.7592 E[Sge2]=1.8320 | P(S2<=3)=0.920849 P(S2>=3)=0.248566 | MC P(S2<=3)=0.920838(+-2.7e-04) | P(Sge2<=3)=0.911568 P(Sge2>=3)=0.269135 | REG=consistent CODED=consistent
+[uniform_A=500   ] exact E[S2]=0.9342 E[Sge2]=0.9532 | P(S2<=3)=0.990702 P(S2>=3)=0.0573785 | MC P(S2<=3)=0.990639(+-9.6e-05) | P(Sge2<=3)=0.990125 P(Sge2>=3)=0.0600925 | REG=consistent CODED=consistent
+[english_k=1     ] exact E[S2]=3.8917 E[Sge2]=8.5323 | P(S2<=3)=0.433538 P(S2>=3)=0.779725 | MC P(S2<=3)=0.433727(+-5.0e-04) | P(Sge2<=3)=1.06986e-05 P(Sge2>=3)=1 | REG=consistent CODED=rejected
+[english_k=2     ] exact E[S2]=5.1942 E[Sge2]=7.8198 | P(S2<=3)=0.186196 P(S2>=3)=0.93025 | MC P(S2<=3)=0.186841(+-3.9e-04) | P(Sge2<=3)=0.000626575 P(Sge2>=3)=0.999975 | REG=consistent CODED=rejected
+[english_k=3     ] exact E[S2]=4.9993 E[Sge2]=6.5712 | P(S2<=3)=0.200899 P(S2>=3)=0.926121 | MC P(S2<=3)=0.200971(+-4.0e-04) | P(Sge2<=3)=0.0165357 P(Sge2>=3)=0.997954 | REG=consistent CODED=rejected
+[english_k=5     ] exact E[S2]=4.0736 E[Sge2]=4.7980 | P(S2<=3)=0.37105 P(S2>=3)=0.837014 | MC P(S2<=3)=0.370849(+-4.8e-04) | P(Sge2<=3)=0.196227 P(Sge2>=3)=0.940435 | REG=consistent CODED=consistent
+[english_k=8     ] exact E[S2]=3.0374 E[Sge2]=3.3636 | P(S2<=3)=0.641572 P(S2>=3)=0.627435 | MC P(S2<=3)=0.641484(+-4.8e-04) | P(Sge2<=3)=0.553002 P(Sge2>=3)=0.716584 | REG=consistent CODED=consistent
+[english_k=10    ] exact E[S2]=2.5788 E[Sge2]=2.7978 | P(S2<=3)=0.760048 P(S2>=3)=0.498147 | MC P(S2<=3)=0.760495(+-4.3e-04) | P(Sge2<=3)=0.708251 P(Sge2>=3)=0.56542 | REG=consistent CODED=consistent
+[english_k=15    ] exact E[S2]=1.8619 E[Sge2]=1.9657 | P(S2<=3)=0.90534 P(S2>=3)=0.278917 | MC P(S2<=3)=0.905665(+-2.9e-04) | P(Sge2<=3)=0.89043 P(Sge2>=3)=0.309376 | REG=consistent CODED=consistent
+[english_k=20    ] exact E[S2]=1.4535 E[Sge2]=1.5138 | P(S2<=3)=0.957075 P(S2>=3)=0.165194 | MC P(S2<=3)=0.957379(+-2.0e-04) | P(Sge2<=3)=0.951831 P(Sge2>=3)=0.179844 | REG=consistent CODED=consistent
+[DONE] elapsed 69.1s; wrote results_structure_audit.json
